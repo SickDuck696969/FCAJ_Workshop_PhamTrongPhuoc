@@ -16,13 +16,12 @@ pre: " <b> 1.12. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Updated the workshop content and checked the structure of the final files. | 20/07/2026 | 20/07/2026 | Workshop update |
-| Tue | Reviewed the internship report outline and filled in the missing sections. | 21/07/2026 | 21/07/2026 | Report outline |
-| Wed | Wrote the remaining report content and matched it with the internship notes. | 22/07/2026 | 22/07/2026 | Report writing |
-| Thu | Polished the slides and checked that the workshop details were consistent. | 23/07/2026 | 23/07/2026 | Polish slides |
-| Fri | Compiled screenshots, evidence, and the supporting attachments. | 24/07/2026 | 24/07/2026 | Evidence |
-| Sat | Finalized the report and verified the appendix and formatting. | 25/07/2026 | 25/07/2026 | Final review |
-| Sun | Completed the workshop materials and summarized the internship experience. | 26/07/2026 | 26/07/2026 | Submission ready |
+| Mon | Updated the workshop content and checked the structure of the final files. | 20/07/2026 | 20/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Tue | Reviewed the internship report outline and filled in the missing sections. | 21/07/2026 | 21/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Wrote the remaining report content and matched it with the internship notes. | 22/07/2026 | 22/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Polished the slides and checked that the workshop details were consistent. | 23/07/2026 | 23/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Compiled screenshots, evidence, and the supporting attachments. | 24/07/2026 | 24/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Finalized the report and verified the appendix and formatting. | 25/07/2026 | 25/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 12 Results:
 

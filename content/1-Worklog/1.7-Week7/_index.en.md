@@ -16,13 +16,12 @@ pre: " <b> 1.7. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Researched the AWS services required for the project backend. | 15/06/2026 | 15/06/2026 | AWS research |
-| Tue | Studied Lambda, API Gateway, and the related managed services in detail. | 16/06/2026 | 16/06/2026 | Service study |
-| Wed | Drafted the first version of the system architecture and data flow. | 17/06/2026 | 17/06/2026 | Architecture draft |
-| Thu | Refined the architecture and checked whether the service split made sense. | 18/06/2026 | 18/06/2026 | Design review |
-| Fri | Reviewed the design with the team and saved the notes in [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 19/06/2026 | 19/06/2026 | Team review |
-| Sat | Updated the diagrams and clarified the communication flow between services. | 20/06/2026 | 20/06/2026 | Diagram cleanup |
-| Sun | Documented the final design decisions in the worklog. | 21/06/2026 | 21/06/2026 | Design notes |
+| Mon | Researched the AWS services required for the project backend. | 15/06/2026 | 15/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Tue | Studied Lambda, API Gateway, and the related managed services in detail. | 16/06/2026 | 16/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Drafted the first version of the system architecture and data flow. | 17/06/2026 | 17/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Refined the architecture and checked whether the service split made sense. | 18/06/2026 | 18/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Reviewed the design with the team and saved the notes in [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 19/06/2026 | 19/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Updated the diagrams and clarified the communication flow between services. | 20/06/2026 | 20/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 7 Results:
 

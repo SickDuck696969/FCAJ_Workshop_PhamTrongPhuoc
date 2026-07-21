@@ -16,13 +16,12 @@ pre: " <b> 1.5. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the advanced theory topics and identified what needed more practice. | 01/06/2026 | 01/06/2026 | Advanced theory |
-| Tue | Worked on the advanced lab and followed the instructions step by step. | 02/06/2026 | 02/06/2026 | Advanced lab |
-| Wed | Continued the lab tasks and fixed the issues from the previous attempt. | 03/06/2026 | 03/06/2026 | Practice |
-| Thu | Rechecked the results and updated the notes with the corrected flow. | 04/06/2026 | 04/06/2026 | Review |
-| Fri | Joined the office event and captured the main feedback points. | 05/06/2026 | 05/06/2026 | Office event |
-| Sat | Revisited the difficult parts of the lab and practiced them again. | 06/06/2026 | 06/06/2026 | Revision |
-| Sun | Summarized the week’s progress and prepared for the project planning stage. | 07/06/2026 | 07/06/2026 | Weekly summary |
+| Mon | Reviewed the advanced theory topics and identified what needed more practice. | 01/06/2026 | 01/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Tue | Worked on the advanced lab and followed the instructions step by step. | 02/06/2026 | 02/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Wed | Continued the lab tasks and fixed the issues from the previous attempt. | 03/06/2026 | 03/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thu | Rechecked the results and updated the notes with the corrected flow. | 04/06/2026 | 04/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Fri | Joined the office event and captured the main feedback points. | 05/06/2026 | 05/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Sat | Revisited the difficult parts of the lab and practiced them again. | 06/06/2026 | 06/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 5 Results:
 

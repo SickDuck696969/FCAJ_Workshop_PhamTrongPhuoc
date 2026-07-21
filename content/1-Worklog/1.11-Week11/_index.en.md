@@ -16,13 +16,12 @@ pre: " <b> 1.11. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Prepared the deployment environment and checked the release checklist. | 13/07/2026 | 13/07/2026 | Deployment prep |
-| Tue | Deployed the project and confirmed the main services were online. | 14/07/2026 | 14/07/2026 | Deployment |
-| Wed | Reviewed the live system and fixed the small deployment issues. | 15/07/2026 | 15/07/2026 | Live check |
-| Thu | Practiced the workshop flow and refined the demo script. | 16/07/2026 | 16/07/2026 | Workshop prep |
-| Fri | Finalized the slides and supporting materials for the workshop. | 17/07/2026 | 17/07/2026 | Slides |
-| Sat | Rehearsed the presentation and checked the timing again. | 18/07/2026 | 18/07/2026 | Rehearsal |
-| Sun | Delivered the workshop and noted the feedback from the session. | 19/07/2026 | 19/07/2026 | Workshop |
+| Mon | Prepared the deployment environment and checked the release checklist. | 13/07/2026 | 13/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Tue | Deployed the project and confirmed the main services were online. | 14/07/2026 | 14/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Reviewed the live system and fixed the small deployment issues. | 15/07/2026 | 15/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Practiced the workshop flow and refined the demo script. | 16/07/2026 | 16/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Finalized the slides and supporting materials for the workshop. | 17/07/2026 | 17/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Rehearsed the presentation and checked the timing again. | 18/07/2026 | 18/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 11 Results:
 

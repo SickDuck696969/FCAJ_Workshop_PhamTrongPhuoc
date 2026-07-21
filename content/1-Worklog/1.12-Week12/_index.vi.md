@@ -16,13 +16,12 @@ pre: " <b> 1.12. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Cập nhật nội dung workshop và kiểm tra lại bố cục các file cuối. | 20/07/2026 | 20/07/2026 | Cập nhật workshop |
-| Thứ 3 | Xem lại dàn ý báo cáo thực tập và điền các phần còn thiếu. | 21/07/2026 | 21/07/2026 | Dàn ý báo cáo |
-| Thứ 4 | Viết nốt nội dung báo cáo và đối chiếu với ghi chú thực tập. | 22/07/2026 | 22/07/2026 | Viết báo cáo |
-| Thứ 5 | Chỉnh lại slide và kiểm tra tính thống nhất của phần workshop. | 23/07/2026 | 23/07/2026 | Chỉnh slide |
-| Thứ 6 | Tổng hợp ảnh chụp màn hình, bằng chứng và các file đính kèm. | 24/07/2026 | 24/07/2026 | Bằng chứng |
-| Thứ 7 | Hoàn thiện báo cáo và kiểm tra phần phụ lục, định dạng. | 25/07/2026 | 25/07/2026 | Rà soát cuối |
-| Chủ nhật | Hoàn tất tài liệu workshop và tổng kết toàn bộ quá trình thực tập. | 26/07/2026 | 26/07/2026 | Sẵn sàng nộp |
+| Thứ 2 | Cập nhật nội dung workshop và kiểm tra lại bố cục các file cuối. | 20/07/2026 | 20/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 3 | Xem lại dàn ý báo cáo thực tập và điền các phần còn thiếu. | 21/07/2026 | 21/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 4 | Viết nốt nội dung báo cáo và đối chiếu với ghi chú thực tập. | 22/07/2026 | 22/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 5 | Chỉnh lại slide và kiểm tra tính thống nhất của phần workshop. | 23/07/2026 | 23/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 6 | Tổng hợp ảnh chụp màn hình, bằng chứng và các file đính kèm. | 24/07/2026 | 24/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 7 | Hoàn thiện báo cáo và kiểm tra phần phụ lục, định dạng. | 25/07/2026 | 25/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Kết quả đạt được tuần 12:
 

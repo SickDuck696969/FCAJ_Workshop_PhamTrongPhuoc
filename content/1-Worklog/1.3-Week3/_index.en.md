@@ -16,13 +16,12 @@ pre: " <b> 1.3. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Studied the theory materials in more detail and reviewed the main services again. | 18/05/2026 | 18/05/2026 | Theory review |
-| Tue | Worked on the next lab and checked each step carefully. | 19/05/2026 | 19/05/2026 | Lab practice |
-| Wed | Continued the lab exercises and fixed the minor setup issues. | 20/05/2026 | 20/05/2026 | Troubleshooting |
-| Thu | Reviewed the documentation again and updated the personal notes. | 21/05/2026 | 21/05/2026 | Docs review |
-| Fri | Joined the office event and wrote down the important discussion points. | 22/05/2026 | 22/05/2026 | Office event |
-| Sat | Revisited the week’s labs and summarized what I learned. | 23/05/2026 | 23/05/2026 | Summary |
-| Sun | Organized the notes and prepared the checklist for the next week. | 24/05/2026 | 24/05/2026 | Weekly review |
+| Mon | Studied the theory materials in more detail and reviewed the main services again. | 18/05/2026 | 18/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Tue | Worked on the next lab and checked each step carefully. | 19/05/2026 | 19/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Wed | Continued the lab exercises and fixed the minor setup issues. | 20/05/2026 | 20/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thu | Reviewed the documentation again and updated the personal notes. | 21/05/2026 | 21/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Fri | Joined the office event and wrote down the important discussion points. | 22/05/2026 | 22/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Sat | Revisited the week’s labs and summarized what I learned. | 23/05/2026 | 23/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 3 Results:
 

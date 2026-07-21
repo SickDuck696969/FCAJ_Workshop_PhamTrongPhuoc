@@ -16,13 +16,12 @@ pre: " <b> 1.2. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Ôn lại tài liệu lý thuyết và củng cố các khái niệm AWS cơ bản. | 11/05/2026 | 11/05/2026 | Đọc lý thuyết |
-| Thứ 3 | Thực hành bài lab cơ bản đầu tiên và làm theo từng bước cài đặt. | 12/05/2026 | 12/05/2026 | Lab cơ bản |
-| Thứ 4 | Tiếp tục phần lab và đối chiếu kết quả với hướng dẫn. | 13/05/2026 | 13/05/2026 | Thực hành lab |
-| Thứ 5 | Xem lại phần tổng quan dịch vụ và ghi chú những chỗ còn chưa rõ. | 14/05/2026 | 14/05/2026 | Tài liệu AWS |
-| Thứ 6 | Làm lại các bước thực hành và sửa những lỗi nhỏ của lần đầu. | 15/05/2026 | 15/05/2026 | Rà soát |
-| Thứ 7 | Tóm tắt lại kiến thức trong tuần và sắp xếp lại ghi chú lab. | 16/05/2026 | 16/05/2026 | Tổng hợp |
-| Chủ nhật | Ôn lại các nội dung đã học và chuẩn bị cho loạt lab tiếp theo. | 17/05/2026 | 17/05/2026 | Ôn tập tuần |
+| Thứ 2 | Ôn lại tài liệu lý thuyết và củng cố các khái niệm AWS cơ bản. | 11/05/2026 | 11/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 3 | Thực hành bài lab cơ bản đầu tiên và làm theo từng bước cài đặt. | 12/05/2026 | 12/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 4 | Tiếp tục phần lab và đối chiếu kết quả với hướng dẫn. | 13/05/2026 | 13/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 5 | Xem lại phần tổng quan dịch vụ và ghi chú những chỗ còn chưa rõ. | 14/05/2026 | 14/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 6 | Làm lại các bước thực hành và sửa những lỗi nhỏ của lần đầu. | 15/05/2026 | 15/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 7 | Tóm tắt lại kiến thức trong tuần và sắp xếp lại ghi chú lab. | 16/05/2026 | 16/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 2:
 

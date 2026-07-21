@@ -16,13 +16,12 @@ pre: " <b> 1.1. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Created the AWS account, checked the console, and reviewed the internship plan. | 04/05/2026 | 04/05/2026 | AWS Free Tier |
-| Tue | Completed the first credit tasks and explored the AWS Free Tier services. | 05/05/2026 | 05/05/2026 | AWS Free Tier |
-| Wed | Read the overview of core AWS services and wrote down the main ideas. | 06/05/2026 | 06/05/2026 | AWS docs |
-| Thu | Discussed the project direction with the team and listed possible work items. | 07/05/2026 | 07/05/2026 | Team discussion |
-| Fri | Confirmed the project topic and started assigning roles. | 08/05/2026 | 08/05/2026 | Planning notes |
-| Sat | Organized the workshop notes and prepared questions for the office session. | 09/05/2026 | 09/05/2026 | Workshop prep |
-| Sun | Attended the office workshop and recorded the main takeaways. | 10/05/2026 | 10/05/2026 | Office event |
+| Mon | Created the AWS account, checked the console, and reviewed the internship plan. | 04/05/2026 | 04/05/2026 |  |
+| Tue | Completed the first credit tasks and explored the AWS Free Tier services. | 05/05/2026 | 05/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Wed | Read the overview of core AWS services and wrote down the main ideas. | 06/05/2026 | 06/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thu | Discussed the project direction with the team and listed possible work items. | 07/05/2026 | 07/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Fri | Confirmed the project topic and started assigning roles. | 08/05/2026 | 08/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Sat | Organized the workshop notes and prepared questions for the office session. | 09/05/2026 | 09/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 1 Results:
 

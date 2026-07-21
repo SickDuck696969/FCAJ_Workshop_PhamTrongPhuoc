@@ -16,13 +16,12 @@ pre: " <b> 1.6. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Ôn lại tài liệu lý thuyết và làm một phần review nhanh bài lab. | 08/06/2026 | 08/06/2026 | Ôn lý thuyết |
-| Thứ 3 | Bắt đầu trao đổi về yêu cầu project và mục tiêu backend. | 09/06/2026 | 09/06/2026 | Chuẩn bị project |
-| Thứ 4 | Liệt kê các module chính của project và luồng dữ liệu giữa chúng. | 10/06/2026 | 10/06/2026 | Lên kế hoạch |
-| Thứ 5 | Xem lại các dịch vụ AWS có thể hỗ trợ project game backend. | 11/06/2026 | 11/06/2026 | Nghiên cứu dịch vụ |
-| Thứ 6 | Họp nhóm để chốt kế hoạch triển khai và phân chia công việc. | 12/06/2026 | 12/06/2026 | Họp nhóm |
-| Thứ 7 | Rà lại timeline triển khai và ghi thêm các đầu việc cần theo dõi. | 13/06/2026 | 13/06/2026 | Timeline |
-| Chủ nhật | Tóm tắt lại kế hoạch project và sắp xếp ghi chú repo cho [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 14/06/2026 | 14/06/2026 | Repo project |
+| Thứ 2 | Ôn lại tài liệu lý thuyết và làm một phần review nhanh bài lab. | 08/06/2026 | 08/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 3 | Bắt đầu trao đổi về yêu cầu project và mục tiêu backend. | 09/06/2026 | 09/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 4 | Liệt kê các module chính của project và luồng dữ liệu giữa chúng. | 10/06/2026 | 10/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 5 | Xem lại các dịch vụ AWS có thể hỗ trợ project game backend. | 11/06/2026 | 11/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 6 | Họp nhóm để chốt kế hoạch triển khai và phân chia công việc. | 12/06/2026 | 12/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 7 | Rà lại timeline triển khai và ghi thêm các đầu việc cần theo dõi. | 13/06/2026 | 13/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Kết quả đạt được tuần 6:
 

@@ -16,13 +16,12 @@ pre: " <b> 1.9. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Thiết kế các API quản lý user và liệt kê những endpoint cần có. | 29/06/2026 | 29/06/2026 | Thiết kế API user |
-| Thứ 3 | Triển khai những API user đầu tiên và kiểm tra luồng request. | 30/06/2026 | 30/06/2026 | Xây dựng API user |
-| Thứ 4 | Thiết kế các API dữ liệu ingame và lên mô hình dữ liệu. | 01/07/2026 | 01/07/2026 | Thiết kế ingame |
-| Thứ 5 | Triển khai API dữ liệu ingame và kết nối với database. | 02/07/2026 | 02/07/2026 | Xây dựng ingame |
-| Thứ 6 | Tích hợp các API với những service còn lại trong project. | 03/07/2026 | 03/07/2026 | Tích hợp |
-| Thứ 7 | Kiểm thử luồng request và sửa các lỗi nhỏ phát sinh. | 04/07/2026 | 04/07/2026 | Kiểm thử |
-| Chủ nhật | Cập nhật ghi chú và chuẩn bị danh sách service cho tuần sau. | 05/07/2026 | 05/07/2026 | Ôn tập tuần |
+| Thứ 2 | Thiết kế các API quản lý user và liệt kê những endpoint cần có. | 29/06/2026 | 29/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 3 | Triển khai những API user đầu tiên và kiểm tra luồng request. | 30/06/2026 | 30/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 4 | Thiết kế các API dữ liệu ingame và lên mô hình dữ liệu. | 01/07/2026 | 01/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 5 | Triển khai API dữ liệu ingame và kết nối với database. | 02/07/2026 | 02/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 6 | Tích hợp các API với những service còn lại trong project. | 03/07/2026 | 03/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 7 | Kiểm thử luồng request và sửa các lỗi nhỏ phát sinh. | 04/07/2026 | 04/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Kết quả đạt được tuần 9:
 

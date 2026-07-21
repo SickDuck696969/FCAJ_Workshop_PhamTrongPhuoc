@@ -16,13 +16,12 @@ pre: " <b> 1.11. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Chuẩn bị môi trường deploy và kiểm tra checklist phát hành. | 13/07/2026 | 13/07/2026 | Chuẩn bị deploy |
-| Thứ 3 | Triển khai project và xác nhận các service chính đã hoạt động. | 14/07/2026 | 14/07/2026 | Deploy |
-| Thứ 4 | Kiểm tra hệ thống đang chạy và sửa các lỗi nhỏ sau khi deploy. | 15/07/2026 | 15/07/2026 | Kiểm tra thực tế |
-| Thứ 5 | Luyện lại luồng workshop và chỉnh sửa phần demo script. | 16/07/2026 | 16/07/2026 | Chuẩn bị workshop |
-| Thứ 6 | Hoàn thiện slide và các file hỗ trợ cho workshop. | 17/07/2026 | 17/07/2026 | Slide |
-| Thứ 7 | Thực hành thuyết trình lại và kiểm tra thời lượng một lần nữa. | 18/07/2026 | 18/07/2026 | Luyện tập |
-| Chủ nhật | Trình bày workshop và ghi lại phản hồi sau buổi chia sẻ. | 19/07/2026 | 19/07/2026 | Workshop |
+| Thứ 2 | Chuẩn bị môi trường deploy và kiểm tra checklist phát hành. | 13/07/2026 | 13/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 3 | Triển khai project và xác nhận các service chính đã hoạt động. | 14/07/2026 | 14/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 4 | Kiểm tra hệ thống đang chạy và sửa các lỗi nhỏ sau khi deploy. | 15/07/2026 | 15/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 5 | Luyện lại luồng workshop và chỉnh sửa phần demo script. | 16/07/2026 | 16/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 6 | Hoàn thiện slide và các file hỗ trợ cho workshop. | 17/07/2026 | 17/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 7 | Thực hành thuyết trình lại và kiểm tra thời lượng một lần nữa. | 18/07/2026 | 18/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Kết quả đạt được tuần 11:
 

@@ -16,13 +16,12 @@ pre: " <b> 1.4. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Ôn lại tài liệu lý thuyết và chuẩn bị checklist cho bài lab tiếp theo. | 25/05/2026 | 25/05/2026 | Chuẩn bị |
-| Thứ 3 | Hoàn thành bài lab đầu tiên trong kế hoạch và đối chiếu với hướng dẫn. | 26/05/2026 | 26/05/2026 | Lab theo kế hoạch |
-| Thứ 4 | Tiếp tục phần lab và ghi lại các cấu hình quan trọng. | 27/05/2026 | 27/05/2026 | Ghi chú lab |
-| Thứ 5 | Gỡ lỗi bài thực hành và sửa các vấn đề phát sinh. | 28/05/2026 | 28/05/2026 | Debug |
-| Thứ 6 | Hoàn thành các phần còn lại của lab và kiểm tra kết quả cuối. | 29/05/2026 | 29/05/2026 | Hoàn thiện |
-| Thứ 7 | Sắp xếp lại kết quả và cập nhật ghi chú cá nhân. | 30/05/2026 | 30/05/2026 | Tổng hợp |
-| Chủ nhật | Ôn lại những gì đã học và chuẩn bị cho phần lab nâng cao. | 31/05/2026 | 31/05/2026 | Ôn tập tuần |
+| Thứ 2 | Ôn lại tài liệu lý thuyết và chuẩn bị checklist cho bài lab tiếp theo. | 25/05/2026 | 25/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 3 | Hoàn thành bài lab đầu tiên trong kế hoạch và đối chiếu với hướng dẫn. | 26/05/2026 | 26/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 4 | Tiếp tục phần lab và ghi lại các cấu hình quan trọng. | 27/05/2026 | 27/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 5 | Gỡ lỗi bài thực hành và sửa các vấn đề phát sinh. | 28/05/2026 | 28/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 6 | Hoàn thành các phần còn lại của lab và kiểm tra kết quả cuối. | 29/05/2026 | 29/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 7 | Sắp xếp lại kết quả và cập nhật ghi chú cá nhân. | 30/05/2026 | 30/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 4:
 

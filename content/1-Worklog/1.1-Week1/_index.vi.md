@@ -16,13 +16,12 @@ pre: " <b> 1.1. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Tạo tài khoản AWS, kiểm tra giao diện console và xem lại kế hoạch thực tập. | 04/05/2026 | 04/05/2026 | AWS Free Tier |
-| Thứ 3 | Hoàn thành các nhiệm vụ credit đầu tiên và tìm hiểu các dịch vụ AWS Free Tier. | 05/05/2026 | 05/05/2026 | AWS Free Tier |
-| Thứ 4 | Đọc tổng quan về các dịch vụ AWS cơ bản và ghi lại ý chính. | 06/05/2026 | 06/05/2026 | Tài liệu AWS |
-| Thứ 5 | Trao đổi với nhóm về hướng dự án và liệt kê các đầu việc có thể làm. | 07/05/2026 | 07/05/2026 | Trao đổi nhóm |
-| Thứ 6 | Chốt đề tài dự án và bắt đầu phân công vai trò. | 08/05/2026 | 08/05/2026 | Kế hoạch nhóm |
-| Thứ 7 | Sắp xếp lại ghi chú workshop và chuẩn bị câu hỏi cho buổi ở văn phòng. | 09/05/2026 | 09/05/2026 | Chuẩn bị workshop |
-| Chủ nhật | Tham gia workshop ở văn phòng và ghi lại các ý chính. | 10/05/2026 | 10/05/2026 | Sự kiện văn phòng |
+| Thứ 2 | Tạo tài khoản AWS, kiểm tra giao diện console và xem lại kế hoạch thực tập. | 04/05/2026 | 04/05/2026 |  |
+| Thứ 3 | Hoàn thành các nhiệm vụ credit đầu tiên và tìm hiểu các dịch vụ AWS Free Tier. | 05/05/2026 | 05/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 4 | Đọc tổng quan về các dịch vụ AWS cơ bản và ghi lại ý chính. | 06/05/2026 | 06/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 5 | Trao đổi với nhóm về hướng dự án và liệt kê các đầu việc có thể làm. | 07/05/2026 | 07/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 6 | Chốt đề tài dự án và bắt đầu phân công vai trò. | 08/05/2026 | 08/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 7 | Sắp xếp lại ghi chú workshop và chuẩn bị câu hỏi cho buổi ở văn phòng. | 09/05/2026 | 09/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 1:
 

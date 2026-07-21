@@ -16,13 +16,12 @@ pre: " <b> 1.10. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Rà lại danh sách API và xác nhận các đầu việc còn lại. | 06/07/2026 | 06/07/2026 | Lập kế hoạch |
-| Thứ 3 | Hoàn thiện các API còn thiếu và kiểm tra định dạng response. | 07/07/2026 | 07/07/2026 | Hoàn thiện API |
-| Thứ 4 | Chạy vòng kiểm thử đầu tiên và sửa các lỗi phát sinh. | 08/07/2026 | 08/07/2026 | Kiểm thử |
-| Thứ 5 | Lặp lại kiểm thử và cải thiện những phần cần chỉnh sửa. | 09/07/2026 | 09/07/2026 | Sửa lỗi |
-| Thứ 6 | Tối ưu các phần chậm hơn của project và dọn lại code. | 10/07/2026 | 10/07/2026 | Tối ưu |
-| Thứ 7 | Kiểm tra lại kết quả và rà soát các trường hợp biên còn lại. | 11/07/2026 | 11/07/2026 | Xác nhận |
-| Chủ nhật | Tổng hợp kết quả kiểm thử và chuẩn bị cho bước deploy. | 12/07/2026 | 12/07/2026 | Tổng kết tuần |
+| Thứ 2 | Rà lại danh sách API và xác nhận các đầu việc còn lại. | 06/07/2026 | 06/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 3 | Hoàn thiện các API còn thiếu và kiểm tra định dạng response. | 07/07/2026 | 07/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 4 | Chạy vòng kiểm thử đầu tiên và sửa các lỗi phát sinh. | 08/07/2026 | 08/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 5 | Lặp lại kiểm thử và cải thiện những phần cần chỉnh sửa. | 09/07/2026 | 09/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 6 | Tối ưu các phần chậm hơn của project và dọn lại code. | 10/07/2026 | 10/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thứ 7 | Kiểm tra lại kết quả và rà soát các trường hợp biên còn lại. | 11/07/2026 | 11/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Kết quả đạt được tuần 10:
 

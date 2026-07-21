@@ -16,13 +16,12 @@ pre: " <b> 1.6. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the theory materials and completed a short lab review. | 08/06/2026 | 08/06/2026 | Theory review |
-| Tue | Started discussing the project requirements and the backend goals. | 09/06/2026 | 09/06/2026 | Project prep |
-| Wed | Listed the main project modules and the data flow between them. | 10/06/2026 | 10/06/2026 | Planning |
-| Thu | Reviewed AWS services that could support the game backend project. | 11/06/2026 | 11/06/2026 | Service research |
-| Fri | Held a team meeting to finalize the project plan and task split. | 12/06/2026 | 12/06/2026 | Team meeting |
-| Sat | Refined the implementation timeline and wrote down follow-up tasks. | 13/06/2026 | 13/06/2026 | Timeline |
-| Sun | Summarized the project plan and organized the repo notes for [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 14/06/2026 | 14/06/2026 | Project repo |
+| Mon | Reviewed the theory materials and completed a short lab review. | 08/06/2026 | 08/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Tue | Started discussing the project requirements and the backend goals. | 09/06/2026 | 09/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Listed the main project modules and the data flow between them. | 10/06/2026 | 10/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Reviewed AWS services that could support the game backend project. | 11/06/2026 | 11/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Held a team meeting to finalize the project plan and task split. | 12/06/2026 | 12/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Refined the implementation timeline and wrote down follow-up tasks. | 13/06/2026 | 13/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 6 Results:
 

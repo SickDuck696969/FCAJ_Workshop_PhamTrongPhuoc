@@ -16,13 +16,12 @@ pre: " <b> 1.10. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the API list and confirmed the remaining work items. | 06/07/2026 | 06/07/2026 | Planning |
-| Tue | Completed the remaining APIs and checked the response format. | 07/07/2026 | 07/07/2026 | API completion |
-| Wed | Ran the first testing round and fixed the bugs that appeared. | 08/07/2026 | 08/07/2026 | Testing |
-| Thu | Repeated the tests and improved the implementation where needed. | 09/07/2026 | 09/07/2026 | Bug fixes |
-| Fri | Optimized the slower parts of the project and cleaned up the code. | 10/07/2026 | 10/07/2026 | Optimization |
-| Sat | Rechecked the results and verified the remaining edge cases. | 11/07/2026 | 11/07/2026 | Verification |
-| Sun | Summarized the testing results and prepared for deployment. | 12/07/2026 | 12/07/2026 | Weekly summary |
+| Mon | Reviewed the API list and confirmed the remaining work items. | 06/07/2026 | 06/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Tue | Completed the remaining APIs and checked the response format. | 07/07/2026 | 07/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Ran the first testing round and fixed the bugs that appeared. | 08/07/2026 | 08/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Repeated the tests and improved the implementation where needed. | 09/07/2026 | 09/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Optimized the slower parts of the project and cleaned up the code. | 10/07/2026 | 10/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Rechecked the results and verified the remaining edge cases. | 11/07/2026 | 11/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 10 Results:
 

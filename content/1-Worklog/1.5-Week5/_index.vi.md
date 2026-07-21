@@ -16,13 +16,12 @@ pre: " <b> 1.5. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Ôn lại các chủ đề lý thuyết nâng cao và xác định phần cần luyện thêm. | 01/06/2026 | 01/06/2026 | Lý thuyết nâng cao |
-| Thứ 3 | Thực hành bài lab nâng cao và làm theo hướng dẫn từng bước. | 02/06/2026 | 02/06/2026 | Lab nâng cao |
-| Thứ 4 | Tiếp tục các tác vụ lab và sửa lỗi từ lần thực hành trước. | 03/06/2026 | 03/06/2026 | Thực hành |
-| Thứ 5 | Kiểm tra lại kết quả và cập nhật ghi chú theo luồng đã sửa. | 04/06/2026 | 04/06/2026 | Rà soát |
-| Thứ 6 | Tham gia sự kiện ở văn phòng và ghi lại các phản hồi chính. | 05/06/2026 | 05/06/2026 | Sự kiện văn phòng |
-| Thứ 7 | Làm lại phần khó trong bài lab để ghi nhớ tốt hơn. | 06/06/2026 | 06/06/2026 | Luyện lại |
-| Chủ nhật | Tóm tắt tiến độ trong tuần và chuẩn bị cho giai đoạn lên kế hoạch dự án. | 07/06/2026 | 07/06/2026 | Tổng kết tuần |
+| Thứ 2 | Ôn lại các chủ đề lý thuyết nâng cao và xác định phần cần luyện thêm. | 01/06/2026 | 01/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 3 | Thực hành bài lab nâng cao và làm theo hướng dẫn từng bước. | 02/06/2026 | 02/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 4 | Tiếp tục các tác vụ lab và sửa lỗi từ lần thực hành trước. | 03/06/2026 | 03/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 5 | Kiểm tra lại kết quả và cập nhật ghi chú theo luồng đã sửa. | 04/06/2026 | 04/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 6 | Tham gia sự kiện ở văn phòng và ghi lại các phản hồi chính. | 05/06/2026 | 05/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 7 | Làm lại phần khó trong bài lab để ghi nhớ tốt hơn. | 06/06/2026 | 06/06/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 5:
 

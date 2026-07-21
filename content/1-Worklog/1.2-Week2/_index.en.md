@@ -16,13 +16,12 @@ pre: " <b> 1.2. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the theory materials and refreshed the core AWS concepts. | 11/05/2026 | 11/05/2026 | Theory reading |
-| Tue | Practiced the first basic lab and followed each setup step carefully. | 12/05/2026 | 12/05/2026 | Basic lab |
-| Wed | Continued the lab work and checked the results against the instructions. | 13/05/2026 | 13/05/2026 | Lab practice |
-| Thu | Studied the service overview again and noted the parts that were still unclear. | 14/05/2026 | 14/05/2026 | AWS docs |
-| Fri | Repeated the exercises and fixed the small mistakes from the first run. | 15/05/2026 | 15/05/2026 | Review |
-| Sat | Summarized the week and cleaned up the lab notes. | 16/05/2026 | 16/05/2026 | Summary |
-| Sun | Reviewed the week’s learning and prepared for the next set of labs. | 17/05/2026 | 17/05/2026 | Weekly review |
+| Mon | Reviewed the theory materials and refreshed the core AWS concepts. | 11/05/2026 | 11/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Tue | Practiced the first basic lab and followed each setup step carefully. | 12/05/2026 | 12/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Wed | Continued the lab work and checked the results against the instructions. | 13/05/2026 | 13/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thu | Studied the service overview again and noted the parts that were still unclear. | 14/05/2026 | 14/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Fri | Repeated the exercises and fixed the small mistakes from the first run. | 15/05/2026 | 15/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Sat | Summarized the week and cleaned up the lab notes. | 16/05/2026 | 16/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 2 Results:
 

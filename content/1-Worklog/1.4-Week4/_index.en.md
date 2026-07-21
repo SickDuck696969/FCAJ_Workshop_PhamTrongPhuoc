@@ -16,13 +16,12 @@ pre: " <b> 1.4. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the theory materials and prepared the next lab checklist. | 25/05/2026 | 25/05/2026 | Preparation |
-| Tue | Completed the first planned lab and compared the output with the guide. | 26/05/2026 | 26/05/2026 | Planned lab |
-| Wed | Continued the lab work and documented the important settings. | 27/05/2026 | 27/05/2026 | Lab notes |
-| Thu | Debugged the exercises and fixed the issues found during practice. | 28/05/2026 | 28/05/2026 | Debugging |
-| Fri | Finished the remaining lab tasks and checked the final results. | 29/05/2026 | 29/05/2026 | Completion |
-| Sat | Organized the outcomes and updated the personal notes. | 30/05/2026 | 30/05/2026 | Summary |
-| Sun | Reviewed the week’s learning and prepared for advanced labs. | 31/05/2026 | 31/05/2026 | Weekly review |
+| Mon | Reviewed the theory materials and prepared the next lab checklist. | 25/05/2026 | 25/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Tue | Completed the first planned lab and compared the output with the guide. | 26/05/2026 | 26/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Wed | Continued the lab work and documented the important settings. | 27/05/2026 | 27/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thu | Debugged the exercises and fixed the issues found during practice. | 28/05/2026 | 28/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Fri | Finished the remaining lab tasks and checked the final results. | 29/05/2026 | 29/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Sat | Organized the outcomes and updated the personal notes. | 30/05/2026 | 30/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 4 Results:
 

@@ -16,13 +16,12 @@ pre: " <b> 1.3. </b> "
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Nghiên cứu tài liệu lý thuyết kỹ hơn và xem lại các dịch vụ chính. | 18/05/2026 | 18/05/2026 | Ôn lý thuyết |
-| Thứ 3 | Thực hiện bài lab tiếp theo và kiểm tra cẩn thận từng bước. | 19/05/2026 | 19/05/2026 | Thực hành lab |
-| Thứ 4 | Tiếp tục bài lab và sửa các lỗi cài đặt nhỏ. | 20/05/2026 | 20/05/2026 | Xử lý lỗi |
-| Thứ 5 | Xem lại tài liệu và cập nhật phần ghi chú cá nhân. | 21/05/2026 | 21/05/2026 | Đọc tài liệu |
-| Thứ 6 | Tham gia sự kiện ở văn phòng và ghi lại các nội dung quan trọng. | 22/05/2026 | 22/05/2026 | Sự kiện văn phòng |
-| Thứ 7 | Làm lại các phần lab trong tuần và tóm tắt những gì đã học. | 23/05/2026 | 23/05/2026 | Tổng kết |
-| Chủ nhật | Sắp xếp lại ghi chú và chuẩn bị checklist cho tuần sau. | 24/05/2026 | 24/05/2026 | Ôn tập tuần |
+| Thứ 2 | Nghiên cứu tài liệu lý thuyết kỹ hơn và xem lại các dịch vụ chính. | 18/05/2026 | 18/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 3 | Thực hiện bài lab tiếp theo và kiểm tra cẩn thận từng bước. | 19/05/2026 | 19/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 4 | Tiếp tục bài lab và sửa các lỗi cài đặt nhỏ. | 20/05/2026 | 20/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 5 | Xem lại tài liệu và cập nhật phần ghi chú cá nhân. | 21/05/2026 | 21/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 6 | Tham gia sự kiện ở văn phòng và ghi lại các nội dung quan trọng. | 22/05/2026 | 22/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| Thứ 7 | Làm lại các phần lab trong tuần và tóm tắt những gì đã học. | 23/05/2026 | 23/05/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 3:
 
