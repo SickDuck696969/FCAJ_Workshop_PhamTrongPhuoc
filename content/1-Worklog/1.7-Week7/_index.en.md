@@ -8,23 +8,25 @@ pre: " <b> 1.7. </b> "
 
 ### Week 7 Objectives:
 
-* Develop Dependent Services for game logic: Shop, Gift Code.
-* Build Cross-Service Communication mechanism via API Gateway for Lambda functions to interact with each other.
+* Research the AWS services needed for [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI).
+* Design the system architecture for the game backend project.
+* Define how the main services will communicate with each other.
 
 ### Weekly Tasks:
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | - Design architecture for lambda-transaction:<br>+ Identify required API endpoints.<br>+ Plan data flow between lambda-transaction and core services (lambda-economy, lambda-inventory). | 16/06/2026 | 16/06/2026 | |
-| Tue | - Develop Shop functionality:<br>+ Build API for purchasing items with Coin/Gem.<br>+ Implement balance checking and deduction logic.<br>+ Update player inventory after transactions. | 17/06/2026 | 17/06/2026 | |
-| Wed | - Develop Gift Code functionality:<br>+ Build API for creating and redeeming Gift Codes.<br>+ Implement code validation, expiry checking, and usage limit.<br>+ Handle item/resource reward distribution. | 18/06/2026 | 18/06/2026 | |
-| Thu - Fri | - Build Cross-Service Communication:<br>+ Set up API Gateway as communication intermediary between Lambdas.<br>+ Configure IAM Role for cross-Lambda invocation.<br>+ Handle errors and timeouts in inter-service communication. | 19/06/2026 | 20/06/2026 | |
-| Sun | - Integration testing of the full transaction flow:<br>+ Buy item from Shop -> deduct currency -> receive item.<br>+ Redeem Gift Code -> validate code -> distribute reward.<br>+ Verify data consistency across services. | 21/06/2026 | 21/06/2026 | |
+| Mon | Researched the AWS services required for the project backend. | 15/06/2026 | 15/06/2026 | AWS research |
+| Tue | Studied Lambda, API Gateway, and the related managed services in detail. | 16/06/2026 | 16/06/2026 | Service study |
+| Wed | Drafted the first version of the system architecture and data flow. | 17/06/2026 | 17/06/2026 | Architecture draft |
+| Thu | Refined the architecture and checked whether the service split made sense. | 18/06/2026 | 18/06/2026 | Design review |
+| Fri | Reviewed the design with the team and saved the notes in [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 19/06/2026 | 19/06/2026 | Team review |
+| Sat | Updated the diagrams and clarified the communication flow between services. | 20/06/2026 | 20/06/2026 | Diagram cleanup |
+| Sun | Documented the final design decisions in the worklog. | 21/06/2026 | 21/06/2026 | Design notes |
 
 ### Week 7 Results:
 
-* Completed design and development of lambda-transaction with all required API endpoints for Shop and Gift Code.
-* Shop system operates stably: players can purchase items, the system automatically checks balances, deducts currency, and updates inventory accurately.
-* Gift Code functionality successfully deployed with code validation, expiry checking, and usage limit mechanisms.
-* Successfully built Cross-Service Communication via API Gateway, enabling Lambda functions to communicate safely and efficiently.
-* Completed integration testing, ensuring data consistency across all transaction flows.
+* The architecture for the game backend project was clearly defined.
+* I understood which AWS services were needed and how they would work together.
+* The repository notes at [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) were updated with the latest design decisions.
+* The project was ready to move into AWS setup and database deployment.

@@ -8,26 +8,25 @@ pre: " <b> 1.6. </b> "
 
 ### Mục tiêu tuần 6:
 
-* Xây dựng Core Services cho hệ thống Backend Game API.
-* Phát triển lambda-auth: xác thực và phân quyền người dùng.
-* Phát triển lambda-inventory: quản lý kho đồ và trang bị.
-* Phát triển lambda-economy: quản lý tiền tệ trong game (Coin, Gem).
+* Tiếp tục học lý thuyết và thực hành lab.
+* Họp nhóm để bắt đầu lên kế hoạch triển khai project.
+* Xác định các module backend đầu tiên và quy trình làm việc.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu / Ghi chú |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| 2 | - Thiết kế chi tiết Core Services: <br> + Xác định các API endpoints cho từng service. <br> + Thiết kế database schema: users, inventory_items, currencies. <br> + Xác định luồng dữ liệu giữa các services. | 09/06/2026 | 09/06/2026 | |
-| 3 | - Phát triển lambda-auth: <br> + Xây dựng API đăng ký, đăng nhập, refresh token. <br> + Xác thực JWT token. <br> + Middleware xác thực cho các service khác. | 10/06/2026 | 10/06/2026 | |
-| 4 | - Phát triển lambda-inventory: <br> + API thêm vật phẩm vào kho. <br> + API lấy danh sách vật phẩm, trang bị. <br> + API trang bị/tháo trang bị. <br> + Cập nhật số lượng vật phẩm khi sử dụng. | 11/06/2026 | 11/06/2026 | |
-| 5 | - Phát triển lambda-economy: <br> + API thêm/trừ Coin, Gem. <br> + API kiểm tra số dư. <br> + API lịch sử giao dịch. <br> + Xử lý giao dịch đồng thời (concurrent transaction). | 12/06/2026 | 12/06/2026 | |
-| 6 - CN | - Kiểm thử Core Services: <br> + Kiểm thử từng Lambda riêng lẻ. <br> + Kiểm thử luồng liên kết: auth -> inventory/economy. <br> + Kiểm tra error handling. <br> + Tối ưu performance Lambda. | 13/06/2026 | 14/06/2026 | |
+| Thứ 2 | Ôn lại tài liệu lý thuyết và làm một phần review nhanh bài lab. | 08/06/2026 | 08/06/2026 | Ôn lý thuyết |
+| Thứ 3 | Bắt đầu trao đổi về yêu cầu project và mục tiêu backend. | 09/06/2026 | 09/06/2026 | Chuẩn bị project |
+| Thứ 4 | Liệt kê các module chính của project và luồng dữ liệu giữa chúng. | 10/06/2026 | 10/06/2026 | Lên kế hoạch |
+| Thứ 5 | Xem lại các dịch vụ AWS có thể hỗ trợ project game backend. | 11/06/2026 | 11/06/2026 | Nghiên cứu dịch vụ |
+| Thứ 6 | Họp nhóm để chốt kế hoạch triển khai và phân chia công việc. | 12/06/2026 | 12/06/2026 | Họp nhóm |
+| Thứ 7 | Rà lại timeline triển khai và ghi thêm các đầu việc cần theo dõi. | 13/06/2026 | 13/06/2026 | Timeline |
+| Chủ nhật | Tóm tắt lại kế hoạch project và sắp xếp ghi chú repo cho [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 14/06/2026 | 14/06/2026 | Repo project |
 
 ### Kết quả đạt được tuần 6:
 
-* Hoàn thành thiết kế chi tiết kiến trúc Core Services với đầy đủ API endpoints và database schema.
-* lambda-auth phát triển hoàn chỉnh: đăng ký, đăng nhập, JWT authentication, refresh token, middleware xác thực.
-* lambda-inventory hoạt động đầy đủ chức năng: quản lý kho đồ, thêm/xóa vật phẩm, trang bị/tháo trang bị.
-* lambda-economy quản lý tiền tệ (Coin, Gem) với xử lý giao dịch đồng thời an toàn và lịch sử giao dịch chi tiết.
-* Kiểm thử tích hợp thành công: luồng authentication -> authorization -> business logic hoạt động ổn định.
-* Cả 3 Core Services sẵn sàng triển khai, làm nền tảng cho các Dependent Services ở các tuần tiếp theo.
+* Sau buổi họp nhóm, hướng project đã rõ ràng hơn nhiều.
+* Em có bản phác thảo đầu tiên cho các module backend và timeline thực hiện.
+* Phần tìm hiểu dịch vụ AWS giúp khoanh vùng được những gì project thật sự cần.
+* Các ghi chú trong repo đã sẵn sàng cho giai đoạn thiết kế kiến trúc.

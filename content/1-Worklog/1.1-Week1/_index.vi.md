@@ -8,21 +8,25 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-* Tham dự hội thảo AWS để tìm hiểu mindset của doanh nghiệp về điện toán đám mây.
-* Bắt đầu xây dựng hệ thống AWS: tạo tài khoản AWS và tham khảo AWS Free Tier.
-* Tìm kiếm thành viên nhóm và xác nhận đề tài thực hiện.
+* Tạo tài khoản AWS và hoàn thành các nhiệm vụ credit đầu tiên.
+* Xem lại lộ trình thực tập và tài liệu của workshop.
+* Chốt hướng dự án và bắt đầu sắp xếp nhóm làm việc.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu / Ghi chú |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| 2 - 6 | - Tìm hiểu tổng quan về chương trình First Cloud AI Journey. <br> - Xác nhận đề tài: Xây dựng Server Game Restful API với các dịch vụ của AWS. <br> - Tìm kiếm thành viên nhóm và phân công vai trò. <br> - Tạo tài khoản AWS Free Tier và làm quen với AWS Management Console. | 05/05/2026 | 09/05/2026 | First Cloud AI Journey |
-| 7 | - Tham gia hội thảo AWS của chương trình FCAJ. <br> - Tìm hiểu mindset doanh nghiệp khi ứng dụng điện toán đám mây. <br> - Tham khảo AWS Free Tier 2025: danh sách các dịch vụ miễn phí, hạn mức sử dụng. <br> - Lên kế hoạch tận dụng Free Tier cho dự án. | 10/05/2026 | 10/05/2026 | Nội dung hội thảo |
+| Thứ 2 | Tạo tài khoản AWS, kiểm tra giao diện console và xem lại kế hoạch thực tập. | 04/05/2026 | 04/05/2026 | AWS Free Tier |
+| Thứ 3 | Hoàn thành các nhiệm vụ credit đầu tiên và tìm hiểu các dịch vụ AWS Free Tier. | 05/05/2026 | 05/05/2026 | AWS Free Tier |
+| Thứ 4 | Đọc tổng quan về các dịch vụ AWS cơ bản và ghi lại ý chính. | 06/05/2026 | 06/05/2026 | Tài liệu AWS |
+| Thứ 5 | Trao đổi với nhóm về hướng dự án và liệt kê các đầu việc có thể làm. | 07/05/2026 | 07/05/2026 | Trao đổi nhóm |
+| Thứ 6 | Chốt đề tài dự án và bắt đầu phân công vai trò. | 08/05/2026 | 08/05/2026 | Kế hoạch nhóm |
+| Thứ 7 | Sắp xếp lại ghi chú workshop và chuẩn bị câu hỏi cho buổi ở văn phòng. | 09/05/2026 | 09/05/2026 | Chuẩn bị workshop |
+| Chủ nhật | Tham gia workshop ở văn phòng và ghi lại các ý chính. | 10/05/2026 | 10/05/2026 | Sự kiện văn phòng |
 
 ### Kết quả đạt được tuần 1:
 
-* Đã tham gia hội thảo AWS, hiểu được mindset của doanh nghiệp về việc ứng dụng điện toán đám mây và AI.
-* Đã tạo thành công tài khoản AWS Free Tier và nắm được các hạn mức sử dụng miễn phí.
-* Đã tìm được thành viên nhóm và chốt thành công đề tài: Xây dựng Server Game Restful API với các dịch vụ của AWS.
-* Nắm được danh sách các dịch vụ AWS Free Tier có thể tận dụng cho dự án.
-* Đã tham gia hội thảo.
+* Em đã hoàn thành các bước khởi tạo AWS ban đầu và thao tác khá ổn với console.
+* Nhóm đã thống nhất hướng dự án và các phần việc đầu tiên cũng rõ ràng hơn.
+* Ghi chú workshop giúp em hiểu hơn về mindset làm việc với điện toán đám mây.
+* Em kết thúc tuần với kế hoạch rõ ràng cho phần học và lab tiếp theo.

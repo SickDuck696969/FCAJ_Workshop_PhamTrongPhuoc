@@ -8,25 +8,25 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu tuần 5:
 
-* Thiết lập Monorepo với npm Workspaces để quản lý mã nguồn đa service.
-* Xây dựng Lambda Handler Pattern chuẩn cho tất cả các service.
-* Cấu hình Serverless Framework cho từng service để triển khai lên AWS.
-* Kết nối database qua TypeORM kết hợp IAM Auth.
+* Học lý thuyết và thực hành các bài lab nâng cao.
+* Tiếp tục cải thiện cách làm việc trên AWS và ghi lại các điểm còn vướng.
+* Tham gia sự kiện ở văn phòng và ghi lại phản hồi hữu ích.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu / Ghi chú |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| 2 | - Thiết lập Monorepo với npm Workspaces: <br> + Cấu trúc thư mục: packages/shared, services/*. <br> + Khởi tạo root package.json với workspaces. <br> + Chia sẻ code chung (types, utils) qua shared package. | 02/06/2026 | 02/06/2026 | |
-| 3 | - Xây dựng Lambda Handler Pattern: <br> + Thiết kế base handler class với error handling, logging, response format. <br> + Middleware pattern: authentication, validation, rate limiting. <br> + Standard response format cho tất cả API endpoints. | 03/06/2026 | 03/06/2026 | |
-| 4 | - Cấu hình Serverless Framework: <br> + Tạo serverless.yml cho từng service. <br> + Cấu hình provider: runtime, region, stage, IAM Role. <br> + Cấu hình functions, events, environment variables. <br> + Plugin hỗ trợ: serverless-offline, serverless-dotenv. | 04/06/2026 | 04/06/2026 | |
-| 5 | - Kết nối database qua TypeORM + IAM Auth: <br> + Cấu hình TypeORM DataSource với Aurora PostgreSQL. <br> + Tích hợp IAM Auth: dùng AWS SDK để lấy database auth token. <br> + Tạo entities và migrations cho các bảng dữ liệu. | 05/06/2026 | 05/06/2026 | |
-| 6 - CN | - Kiểm tra tích hợp: <br> + Build monorepo, xác nhận dependency được resolve đúng. <br> + Chạy Lambda handler locally với serverless-offline. <br> + Kiểm tra kết nối database với IAM Auth. | 06/06/2026 | 07/06/2026 | |
+| Thứ 2 | Ôn lại các chủ đề lý thuyết nâng cao và xác định phần cần luyện thêm. | 01/06/2026 | 01/06/2026 | Lý thuyết nâng cao |
+| Thứ 3 | Thực hành bài lab nâng cao và làm theo hướng dẫn từng bước. | 02/06/2026 | 02/06/2026 | Lab nâng cao |
+| Thứ 4 | Tiếp tục các tác vụ lab và sửa lỗi từ lần thực hành trước. | 03/06/2026 | 03/06/2026 | Thực hành |
+| Thứ 5 | Kiểm tra lại kết quả và cập nhật ghi chú theo luồng đã sửa. | 04/06/2026 | 04/06/2026 | Rà soát |
+| Thứ 6 | Tham gia sự kiện ở văn phòng và ghi lại các phản hồi chính. | 05/06/2026 | 05/06/2026 | Sự kiện văn phòng |
+| Thứ 7 | Làm lại phần khó trong bài lab để ghi nhớ tốt hơn. | 06/06/2026 | 06/06/2026 | Luyện lại |
+| Chủ nhật | Tóm tắt tiến độ trong tuần và chuẩn bị cho giai đoạn lên kế hoạch dự án. | 07/06/2026 | 07/06/2026 | Tổng kết tuần |
 
 ### Kết quả đạt được tuần 5:
 
-* Thiết lập thành công Monorepo với npm Workspaces, chia sẻ code chung qua shared package, giúp quản lý mã nguồn nhất quán giữa các service.
-* Xây dựng Lambda Handler Pattern chuẩn với base handler, middleware support và response format thống nhất.
-* Cấu hình Serverless Framework hoàn chỉnh cho từng service với đầy đủ functions, events và environment variables.
-* Kết nối database thành công qua TypeORM + IAM Auth: sử dụng database auth token thay vì password truyền thống, tăng cường bảo mật.
-* Tạo entities và migrations cho các bảng dữ liệu chính, sẵn sàng phát triển business logic.
+* Các bài lab nâng cao giúp em hiểu AWS sâu hơn rõ rệt.
+* Sự kiện ở văn phòng cho em thêm ghi chú hữu ích cho phần dự án sắp tới.
+* Em đã sửa lại các phần còn khó hiểu và ghi chú lại đầy đủ hơn.
+* Tiến độ thực tập vẫn đi đúng hướng trước khi bước vào tuần lập kế hoạch dự án.

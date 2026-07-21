@@ -8,24 +8,25 @@ pre: " <b> 1.3. </b> "
 
 ### Week 3 Objectives:
 
-* Set up IAM Policy and IAM Role to manage access permissions for AWS resources.
-* Calculate operational costs for the project using AWS Pricing Calculator.
-* Set up AWS Budgets: Cost Budget and Usage Budget for cost control.
+* Continue studying AWS theory in more detail.
+* Complete the next basic labs and review the results.
+* Attend the office event and capture the key points.
 
 ### Weekly Tasks:
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Tue | - Learn about IAM (Identity and Access Management): <br> + Components: User, Group, Role, Policy. <br> + Difference between IAM User and IAM Role. <br> + Structure of an IAM Policy document (JSON). | 19/05/2026 | 19/05/2026 | |
-| Wed | - Set up IAM Policy: <br> + Write policies allowing Lambda to access RDS, SQS, S3. <br> + Apply the least privilege principle. <br> - Set up IAM Role: <br> + Create roles for Lambda with the written policies. <br> + Attach roles to Lambda functions. | 20/05/2026 | 20/05/2026 | |
-| Thu | - Calculate operational costs with AWS Pricing Calculator: <br> + Input estimated parameters: EC2, RDS, S3, Lambda, API Gateway. <br> + Estimate monthly costs. <br> + Plan for cost optimization. | 21/05/2026 | 21/05/2026 | |
-| Fri | - Set up AWS Budgets: <br> + Cost Budget: monthly spending budget. <br> + Usage Budget: resource usage limits. <br> + Configure email alerts when thresholds are exceeded. | 22/05/2026 | 22/05/2026 | |
-| Sat - Sun | - Review and finalize: <br> + Review created IAM Policies. <br> + Verify budgets are working. <br> + Document policies and budgets for the team. | 23/05/2026 | 24/05/2026 | |
+| Mon | Studied the theory materials in more detail and reviewed the main services again. | 18/05/2026 | 18/05/2026 | Theory review |
+| Tue | Worked on the next lab and checked each step carefully. | 19/05/2026 | 19/05/2026 | Lab practice |
+| Wed | Continued the lab exercises and fixed the minor setup issues. | 20/05/2026 | 20/05/2026 | Troubleshooting |
+| Thu | Reviewed the documentation again and updated the personal notes. | 21/05/2026 | 21/05/2026 | Docs review |
+| Fri | Joined the office event and wrote down the important discussion points. | 22/05/2026 | 22/05/2026 | Office event |
+| Sat | Revisited the week’s labs and summarized what I learned. | 23/05/2026 | 23/05/2026 | Summary |
+| Sun | Organized the notes and prepared the checklist for the next week. | 24/05/2026 | 24/05/2026 | Weekly review |
 
 ### Week 3 Results:
 
-* Thoroughly understood IAM operation and IAM Policy document structure.
-* Successfully set up IAM Policies following the least privilege principle for all major services.
-* Created IAM Roles for Lambda with necessary access to RDS, SQS, and S3.
-* Completed project cost estimation using AWS Pricing Calculator, enabling accurate budget planning.
-* Set up AWS Budgets including Cost Budget and Usage Budget with email alerts, ensuring effective cost control.
+* I continued building confidence with AWS theory and lab exercises.
+* The office event gave me useful ideas for how to keep the internship on track.
+* The lab notes became clearer after I rewrote the main steps.
+* I was ready to move on to the next set of exercises and theory reading.

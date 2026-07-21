@@ -8,21 +8,25 @@ pre: " <b> 1.2. </b> "
 
 ### Week 2 Objectives:
 
-* Explore AWS services such as EC2, RDS, Route 53, S3 to find the optimal services for the Backend Game API project.
-* Survey and design the overall architecture solution for the project.
+* Focus on AWS theory and build a stronger foundation.
+* Practice the basic labs step by step.
+* Review the notes and fix the first gaps in understanding.
 
 ### Weekly Tasks:
 
-| Day | Tasks | Start Date | End Date | Resources |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Tue | - Learn Amazon EC2: instance types, AMI, EBS, Elastic IP, Security Groups. <br> - Learn Amazon RDS: database engines (MySQL, PostgreSQL, Aurora), instance classes. | 12/05/2026 | 12/05/2026 | |
-| Wed | - Learn Amazon Route 53: DNS management, routing policies, hosted zones. <br> - Learn Amazon S3: bucket, object storage, use cases for games (asset storage, backup). | 13/05/2026 | 13/05/2026 | |
-| Thu - Fri | - Compare and evaluate AWS services suitable for the Backend Game API project. <br> - Determine the optimal architecture: combine EC2 for compute, RDS for database, S3 for asset storage. | 14/05/2026 | 15/05/2026 | |
-| Sat - Sun | - Design the overall architecture solution for the project. <br> - Draw preliminary architecture diagram: <br> &emsp; + Client -> EC2 (Game Server) -> RDS (Database). <br> &emsp; + S3 for static asset storage. <br> &emsp; + Route 53 for domain management. <br> - Present and discuss the solution with the team. | 16/05/2026 | 17/05/2026 | |
+| Mon | Reviewed the theory materials and refreshed the core AWS concepts. | 11/05/2026 | 11/05/2026 | Theory reading |
+| Tue | Practiced the first basic lab and followed each setup step carefully. | 12/05/2026 | 12/05/2026 | Basic lab |
+| Wed | Continued the lab work and checked the results against the instructions. | 13/05/2026 | 13/05/2026 | Lab practice |
+| Thu | Studied the service overview again and noted the parts that were still unclear. | 14/05/2026 | 14/05/2026 | AWS docs |
+| Fri | Repeated the exercises and fixed the small mistakes from the first run. | 15/05/2026 | 15/05/2026 | Review |
+| Sat | Summarized the week and cleaned up the lab notes. | 16/05/2026 | 16/05/2026 | Summary |
+| Sun | Reviewed the week’s learning and prepared for the next set of labs. | 17/05/2026 | 17/05/2026 | Weekly review |
 
 ### Week 2 Results:
 
-* Mastered core AWS services: EC2, RDS, Route 53, S3 and how they apply to the Backend Game API project.
-* Evaluated and selected optimal services based on technical requirements and cost considerations.
-* Completed the solution survey and designed a preliminary architecture diagram for the system.
-* Identified the main data flow: Client request -> EC2 (game logic processing) -> RDS (data storage), with static assets served from S3.
+* I understood the basic AWS concepts more clearly after the second week.
+* The first lab exercises were completed and the workflow felt more familiar.
+* My notes were organized enough to use as a reference for the next week.
+* The foundation for the internship learning path became much more stable.

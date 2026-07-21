@@ -8,21 +8,25 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-* Tìm hiểu các service AWS như EC2, RDS, Route 53, S3 để tìm ra service tối ưu cho dự án Backend Game API.
-* Khảo sát và thiết kế giải pháp kiến trúc tổng thể cho dự án.
+* Tập trung vào lý thuyết AWS để xây dựng nền tảng vững hơn.
+* Thực hành các bài lab cơ bản từng bước.
+* Xem lại ghi chú và lấp các phần còn chưa hiểu rõ.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| 2 | - Tìm hiểu dịch vụ Amazon EC2: các loại instance, AMI, EBS, Elastic IP, Security Groups. <br> - Tìm hiểu dịch vụ Amazon RDS: các loại database engine (MySQL, PostgreSQL, Aurora), lớp instance. | 12/05/2026 | 12/05/2026 | |
-| 3 | - Tìm hiểu Amazon Route 53: cách quản lý DNS, routing policies, hosted zones. <br> - Tìm hiểu Amazon S3: bucket, object storage, use cases cho game (asset storage, backup). | 13/05/2026 | 13/05/2026 | |
-| 4 - 5 | - So sánh và đánh giá các service AWS phù hợp cho dự án Backend Game API. <br> - Xác định kiến trúc tối ưu: kết hợp EC2 cho compute, RDS cho database, S3 cho asset storage. | 14/05/2026 | 15/05/2026 | |
-| 6 - CN | - Thiết kế giải pháp kiến trúc tổng thể cho dự án. <br> - Vẽ sơ đồ kiến trúc sơ bộ: <br> &emsp; + Client -> EC2 (Game Server) -> RDS (Database). <br> &emsp; + S3 cho lưu trữ asset tĩnh. <br> &emsp; + Route 53 cho quản lý tên miền. <br> - Trình bày và thảo luận giải pháp với nhóm. | 16/05/2026 | 17/05/2026 | |
+| Thứ 2 | Ôn lại tài liệu lý thuyết và củng cố các khái niệm AWS cơ bản. | 11/05/2026 | 11/05/2026 | Đọc lý thuyết |
+| Thứ 3 | Thực hành bài lab cơ bản đầu tiên và làm theo từng bước cài đặt. | 12/05/2026 | 12/05/2026 | Lab cơ bản |
+| Thứ 4 | Tiếp tục phần lab và đối chiếu kết quả với hướng dẫn. | 13/05/2026 | 13/05/2026 | Thực hành lab |
+| Thứ 5 | Xem lại phần tổng quan dịch vụ và ghi chú những chỗ còn chưa rõ. | 14/05/2026 | 14/05/2026 | Tài liệu AWS |
+| Thứ 6 | Làm lại các bước thực hành và sửa những lỗi nhỏ của lần đầu. | 15/05/2026 | 15/05/2026 | Rà soát |
+| Thứ 7 | Tóm tắt lại kiến thức trong tuần và sắp xếp lại ghi chú lab. | 16/05/2026 | 16/05/2026 | Tổng hợp |
+| Chủ nhật | Ôn lại các nội dung đã học và chuẩn bị cho loạt lab tiếp theo. | 17/05/2026 | 17/05/2026 | Ôn tập tuần |
 
 ### Kết quả đạt được tuần 2:
 
-* Nắm rõ các service AWS cốt lõi: EC2, RDS, Route 53, S3 và cách chúng có thể ứng dụng vào dự án Backend Game API.
-* Đánh giá và chọn được các service tối ưu cho dự án dựa trên yêu cầu kỹ thuật và chi phí.
-* Hoàn thành khảo sát giải pháp và thiết kế sơ đồ kiến trúc sơ bộ cho hệ thống.
-* Xác định được luồng dữ liệu chính: Client request qua EC2 -> xử lý logic game -> lưu trữ trên RDS, asset tĩnh phục vụ từ S3.
+* Em hiểu rõ hơn các khái niệm AWS cơ bản sau tuần học thứ hai.
+* Các bài lab đầu tiên đã hoàn thành và thao tác cũng quen hơn.
+* Ghi chú được sắp xếp gọn lại để làm tài liệu tham khảo cho tuần sau.
+* Nền tảng cho giai đoạn học và thực hành tiếp theo đã vững hơn nhiều.

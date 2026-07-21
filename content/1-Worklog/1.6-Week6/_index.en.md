@@ -8,26 +8,25 @@ pre: " <b> 1.6. </b> "
 
 ### Week 6 Objectives:
 
-* Build Core Services for the Backend Game API system.
-* Develop lambda-auth: user authentication and authorization.
-* Develop lambda-inventory: inventory and equipment management.
-* Develop lambda-economy: in-game currency management (Coin, Gem).
+* Continue theory study and lab practice.
+* Meet with the team and start planning the project implementation.
+* Define the first backend modules and the project workflow.
 
 ### Weekly Tasks:
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Tue | - Detail design of Core Services: <br> + Define API endpoints for each service. <br> + Design database schema: users, inventory_items, currencies. <br> + Define data flow between services. | 09/06/2026 | 09/06/2026 | |
-| Wed | - Develop lambda-auth: <br> + Build signup, sign-in, refresh token APIs. <br> + JWT token validation. <br> + Authentication middleware for other services. | 10/06/2026 | 10/06/2026 | |
-| Thu | - Develop lambda-inventory: <br> + API to add items to inventory. <br> + API to list items, equipment. <br> + API to equip/unequip items. <br> + Update item quantities on usage. | 11/06/2026 | 11/06/2026 | |
-| Fri | - Develop lambda-economy: <br> + API to add/deduct Coin, Gem. <br> + API to check balance. <br> + API for transaction history. <br> + Handle concurrent transactions safely. | 12/06/2026 | 12/06/2026 | |
-| Sat - Sun | - Test Core Services: <br> + Test each Lambda individually. <br> + Test integration flow: auth -> inventory/economy. <br> + Verify error handling. <br> + Optimize Lambda performance. | 13/06/2026 | 14/06/2026 | |
+| Mon | Reviewed the theory materials and completed a short lab review. | 08/06/2026 | 08/06/2026 | Theory review |
+| Tue | Started discussing the project requirements and the backend goals. | 09/06/2026 | 09/06/2026 | Project prep |
+| Wed | Listed the main project modules and the data flow between them. | 10/06/2026 | 10/06/2026 | Planning |
+| Thu | Reviewed AWS services that could support the game backend project. | 11/06/2026 | 11/06/2026 | Service research |
+| Fri | Held a team meeting to finalize the project plan and task split. | 12/06/2026 | 12/06/2026 | Team meeting |
+| Sat | Refined the implementation timeline and wrote down follow-up tasks. | 13/06/2026 | 13/06/2026 | Timeline |
+| Sun | Summarized the project plan and organized the repo notes for [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI). | 14/06/2026 | 14/06/2026 | Project repo |
 
 ### Week 6 Results:
 
-* Completed detailed design of Core Services architecture with full API endpoints and database schema.
-* lambda-auth fully developed: sign-up, sign-in, JWT authentication, refresh token, auth middleware.
-* lambda-inventory operational with full functionality: inventory management, add/remove items, equip/unequip.
-* lambda-economy manages in-game currency (Coin, Gem) with safe concurrent transaction handling and detailed transaction history.
-* Integration testing successful: authentication -> authorization -> business logic flow works stably.
-* All 3 Core Services ready for deployment, serving as the foundation for Dependent Services in the following weeks.
+* The project direction became much clearer after the team meeting.
+* I had a first draft of the backend modules and implementation timeline.
+* The AWS service review helped narrow down what the project really needed.
+* The repository notes were ready for the architecture design stage.

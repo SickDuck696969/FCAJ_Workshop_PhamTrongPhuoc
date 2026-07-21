@@ -8,28 +8,25 @@ pre: " <b> 1.8. </b> "
 
 ### Mục tiêu tuần 8:
 
-* Tạo HTTP API V2 tập trung để quản lý toàn bộ các endpoints của hệ thống.
-* Cấu hình routing cho từng service và deploy lên AWS.
-* Kiểm thử toàn bộ API hệ thống.
+* Hoàn thiện kiến trúc hệ thống và môi trường AWS.
+* Triển khai database và kiểm tra kết nối.
+* Tham gia sự kiện ở văn phòng và ghi lại các việc cần làm tiếp theo.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu / Ghi chú |
+| Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| 2 | - Thiết kế cấu trúc HTTP API V2:<br>+ Xác định các routes cho từng service (auth, inventory, economy, transaction).<br>+ Lên kế hoạch mapping giữa API Gateway paths và Lambda functions. | 23/06/2026 | 23/06/2026 | |
-| 3 | - Tạo HTTP API V2 trên API Gateway:<br>+ Cấu hình CORS cho phép client truy cập.<br>+ Thiết lập các stages (dev, staging, prod).<br>+ Tích hợp Lambda authorizer cho các endpoints yêu cầu xác thực. | 24/06/2026 | 24/06/2026 | |
-| 4 | - Cấu hình routing chi tiết:<br>+ Định nghĩa routes và integrations cho từng Lambda.<br>+ Thiết lập request/response transformation nếu cần.<br>+ Cấu hình throttle và rate limiting. | 25/06/2026 | 25/06/2026 | |
-| 5 | - Deploy toàn bộ Compute Services + API Gateway:<br>+ Deploy các Lambda functions lên AWS.<br>+ Cập nhật environment variables và permissions.<br>+ Deploy API Gateway lên stage production. | 26/06/2026 | 26/06/2026 | |
-| 6 - CN | - Kiểm thử toàn diện hệ thống API:<br>+ Kiểm thử từng endpoint riêng lẻ.<br>+ Kiểm thử luồng xuyên suốt (end-to-end).<br>+ Kiểm tra error handling và response codes.<br>+ Tối ưu performance (cold start, latency). | 27/06/2026 | 28/06/2026 | |
+| Thứ 2 | Xem lại kiến trúc một lần nữa và liệt kê các tài nguyên AWS cần dùng. | 22/06/2026 | 22/06/2026 | Rà kiến trúc |
+| Thứ 3 | Cấu hình môi trường AWS và chuẩn bị các thiết lập triển khai. | 23/06/2026 | 23/06/2026 | Thiết lập AWS |
+| Thứ 4 | Chuẩn bị thiết kế database và kiểm tra schema ban đầu. | 24/06/2026 | 24/06/2026 | Thiết kế database |
+| Thứ 5 | Triển khai database và kiểm tra luồng kết nối. | 25/06/2026 | 25/06/2026 | Triển khai DB |
+| Thứ 6 | Điều chỉnh cấu hình và sửa các lỗi nhỏ phát sinh khi triển khai. | 26/06/2026 | 26/06/2026 | Sửa lỗi |
+| Thứ 7 | Kiểm tra lại môi trường và xác nhận luồng triển khai hoạt động tốt. | 27/06/2026 | 27/06/2026 | Kiểm tra lại |
+| Chủ nhật | Tham gia sự kiện ở văn phòng và ghi lại các bước tiếp theo của project. | 28/06/2026 | 28/06/2026 | Sự kiện văn phòng |
 
 ### Kết quả đạt được tuần 8:
 
-* Thiết kế và triển khai thành công HTTP API V2 tập trung, quản lý toàn bộ routes cho tất cả services.
-* Hoàn thành cấu hình routing chi tiết với CORS, Lambda authorizer, và các stage environments.
-* Deploy thành công toàn bộ Compute Services (lambda-auth, lambda-inventory, lambda-economy, lambda-transaction) lên AWS.
-* API Gateway được deploy lên stage production sẵn sàng phục vụ.
-* Hoàn thành kiểm thử toàn diện:
-  * Tất cả endpoints hoạt động đúng chức năng.
-  * Luồng end-to-end: authentication -> authorization -> business logic -> response hoạt động ổn định.
-  * Error handling trả về mã lỗi phù hợp (400, 401, 403, 404, 500).
-  * Đã tối ưu cold start bằng cách tăng allocated memory cho Lambda.
+* Môi trường AWS đã sẵn sàng cho phần phát triển và kiểm thử.
+* Database được triển khai thành công và luồng kết nối đã được kiểm tra.
+* Ghi chú kiến trúc đã được chốt sau lần rà soát cuối.
+* Sự kiện ở văn phòng giúp xác nhận rõ hơn các bước triển khai tiếp theo.
