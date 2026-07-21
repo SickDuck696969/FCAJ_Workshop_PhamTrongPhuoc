@@ -10,22 +10,22 @@ pre: " <b> 1.8. </b> "
 
 * Finalize the system architecture and AWS environment.
 * Deploy the database and verify the connectivity.
-* Attend the office event and note the follow-up actions.
+* Attend the office event and record the next steps.
 
 ### Weekly Tasks:
 
 | Day | Tasks | Start Date | End Date | Resources / Notes |
 | --- | --- | --- | --- | --- |
-| Mon | Reviewed the architecture one more time and listed the AWS resources that were needed. | 22/06/2026 | 22/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Tue | Configured the AWS environment and prepared the deployment settings. | 23/06/2026 | 23/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Wed | Prepared the database design and checked the initial schema. | 24/06/2026 | 24/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thu | Deployed the database and verified the connection flow. | 25/06/2026 | 25/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Fri | Adjusted the setup and fixed the small issues found during deployment. | 26/06/2026 | 26/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Sat | Checked the environment again and confirmed the deployment flow. | 27/06/2026 | 27/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Mon | Reviewed the architecture. | 22/06/2026 | 22/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Tue | Configured the AWS environment. | 23/06/2026 | 23/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Wed | Prepared the database design. | 24/06/2026 | 24/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Thu | Deployed the database. | 25/06/2026 | 25/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Fri | Adjusted the setup. | 26/06/2026 | 26/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
+| Sat | Confirmed the deployment flow in the environment. | 27/06/2026 | 27/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
 
 ### Week 8 Results:
 
 * The AWS environment was ready for development and testing.
-* The database was deployed successfully and the connection flow was verified.
+* The database deployment and connection flow were verified.
 * The architecture notes were finalized after the last review.
-* The office event helped confirm the next implementation steps.
+* The office event clarified the next implementation steps.
