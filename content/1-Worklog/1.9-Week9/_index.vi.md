@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 9"
-date: 2026-06-29
+date: 2024-01-01
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -8,24 +8,20 @@ pre: " <b> 1.9. </b> "
 
 ### Mục tiêu tuần 9:
 
-* Xây dựng các API quản lý người dùng.
-* Xây dựng các API dữ liệu ingame.
-* Tích hợp các service vào luồng project.
+* Tập trung phát triển các tính năng cốt lõi của Money Manager (Frontend & Backend).
+* Triển khai ứng dụng lên AWS theo đúng kiến trúc đã thiết kế ở tuần 8.
+* Cấu hình kết nối an toàn giữa các dịch vụ AWS.
 
 ### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Lập trình các API nghiệp vụ chính (quản lý thu chi, ngân sách). <br> - Xây dựng module xác thực người dùng và phân quyền cơ bản. | 15/06/2026 | 15/06/2026 | https://github.com/vinhpham2808/J2EE |
+| 3 | - Khởi tạo RDS MySQL và cấu hình schema cơ sở dữ liệu. <br> - Kết nối backend Spring Boot với RDS và kiểm tra các giao dịch (transactions). | 16/06/2026 | 16/06/2026 | https://github.com/vinhpham2808/J2EE |
+| 4 | - Cấu hình ElastiCache Redis để lưu trữ session và làm bộ đệm (cache). <br> - Tích hợp cache vào backend để tối ưu thời gian phản hồi. | 17/06/2026 | 17/06/2026 | https://github.com/vinhpham2808/J2EE |
+| 5 | - Triển khai backend lên cụm EC2 nằm trong Auto Scaling Group. <br> - Cấu hình Application Load Balancer (ALB) để điều hướng traffic. | 18/06/2026 | 18/06/2026 | https://github.com/vinhpham2808/J2EE |
+| 6 | - Kiểm thử end-to-end các luồng chính trực tiếp trên môi trường AWS. <br> - Viết tài liệu hướng dẫn deploy và tổng kết báo cáo tuần 9. | 19/06/2026 | 19/06/2026 | https://github.com/vinhpham2808/J2EE |
 
-| Day | Tasks | Start Date | End Date | Resources / Notes |
-| --- | --- | --- | --- | --- |
-| Thứ 2 | Thiết kế các API quản lý user. | 29/06/2026 | 29/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thứ 3 | Triển khai các API user đầu tiên. | 30/06/2026 | 30/06/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thứ 4 | Thiết kế các API dữ liệu ingame. | 01/07/2026 | 01/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thứ 5 | Triển khai các API dữ liệu ingame. | 02/07/2026 | 02/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thứ 6 | Tích hợp các API với service còn lại trong project. | 03/07/2026 | 03/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-| Thứ 7 | Kiểm thử luồng request. | 04/07/2026 | 04/07/2026 | [SuKem0703/BNGROUP_GAMEAPI](https://github.com/SuKem0703/BNGROUP_GAMEAPI) |
-
-### Kết quả đạt được tuần 9:
-
-* Các API quản lý user đã bắt đầu hoạt động đúng luồng.
-* Các API dữ liệu ingame đã được kết nối với database.
-* Các service đã được tích hợp, chỉ còn vài lỗi nhỏ cần xử lý.
-* Project đã sẵn sàng cho giai đoạn kiểm thử và tối ưu.
+### Kết quả mong đợi
+- Các API cốt lõi hoạt động trơn tru với xác thực an toàn.
+- Backend được deploy thành công trên hạ tầng EC2 có ALB và Auto Scaling.
+- RDS MySQL và ElastiCache Redis được cấu hình và kết nối ổn định.
