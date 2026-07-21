@@ -1,24 +1,44 @@
 ---
-title: "Worklog Tuần 5"
-date: 2024-01-01
+title: "Tuần 5 - Lambda, API Gateway & CloudFormation"
+date: 2026-04-17
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
+### Chủ đề tuần
 
+Nghiên cứu kiến trúc serverless cho backend game API, tìm hiểu Lambda và Amazon API Gateway trong workshop AWS.
 
-### Mục tiêu tuần 5:
+### Mục tiêu tuần
 
-* Tìm hiểu dịch vụ máy chủ đơn giản Amazon Lightsail cho các dự án nhỏ.
-* Nắm bắt khái niệm tự động mở rộng (Auto Scaling) và cân bằng tải (Load Balancing).
-* Đảm bảo hệ thống có khả năng co giãn linh hoạt theo lưu lượng truy cập.
+* Tìm hiểu cơ chế Serverless (Lambda, API Gateway) và Infrastructure as Code (CloudFormation).
+* Thiết lập endpoint API cho các tác vụ nghiệp vụ backend game.
+* Nghiên cứu cách tối ưu hóa chi phí EC2 bằng các cơ chế tự động hóa Lambda.
+* Tham gia sự kiện kết nối công nghệ tại văn phòng AWS.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Nghiên cứu dịch vụ Amazon Lightsail (VPS của AWS), hiểu được Use Cases khi nào dùng Lightsail, khi nào dùng EC2. <br> - Phân tích sự tối ưu chi phí và tính đơn giản của Lightsail so với cấu hình truyền thống. | 18/05/2026 | 18/05/2026 | https://000045.awsstudygroup.com/vi/ |
-| 3 | - Thực hành tạo một Instance trên Amazon Lightsail cài sẵn WordPress/LAMP stack. <br> - Khám phá tính năng gán Static IP, quản lý DNS, và tạo snapshot tự động trên Lightsail. | 19/05/2026 | 19/05/2026 | https://000045.awsstudygroup.com/vi/ |
-| 4 | - Bước vào khái niệm thiết kế hệ thống có khả năng chịu tải với Amazon EC2 Auto Scaling. <br> - Tìm hiểu về Launch Templates, Auto Scaling Group (ASG), và các thuật toán Scaling (Target Tracking, Step Scaling). | 20/05/2026 | 20/05/2026 | https://000006.awsstudygroup.com/vi/ |
-| 5 | - Thực hành EC2 Autoscaling Phần 1: Tạo Launch Template cấu hình sẵn hệ điều hành và web server (thông qua User Data). <br> - Tạo Auto Scaling Group cấu hình Min Capacity = 2, Max Capacity = 4. | 21/05/2026 | 21/05/2026 | https://000006.awsstudygroup.com/vi/ |
-| 6 | - Thực hành EC2 Autoscaling Phần 2: Kiểm thử (Stress Test) hệ thống để kích hoạt chính sách Scale Out (tăng máy chủ). <br> - Quan sát quá trình Scale In khi giảm tải. <br> - Dọn dẹp cấu hình Auto Scaling. | 22/05/2026 | 22/05/2026 | https://000006.awsstudygroup.com/vi/ |
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 18/05/2026 | Thứ 2 | Phân tích các resource API cần triển khai cho hệ thống game backend, xác định endpoint và method tương ứng. | API Design |
+| 19/05/2026 | Thứ 3 | Tìm hiểu tối ưu chi phí EC2 bằng cách dùng Lambda start/stop instance tự động. Thực hành Lab 000022. | [Lab 000022 - Tối ưu chi phí EC2 với Lambda](https://000022.awsstudygroup.com)|
+| 20/05/2026 | Thứ 4 | Nghiên cứu kiến trúc Serverless API với Amazon API Gateway. Thực hành Lab 000055 (Tạo tài nguyên và phương thức). | [Lab 000055 - Tạo và xuất bản API với Amazon API Gateway](https://000055.awsstudygroup.com)|
+| 21/05/2026 | Thứ 5 | Đưa API Gateway vào hoạt động thực tế, tích hợp luồng API Gateway với backend game. Thực hành Lab 000055 (Deploy API). | [Lab 000055 - Tạo và xuất bản API với Amazon API Gateway](https://000055.awsstudygroup.com)|
+| 22/06/2026 | Thứ 6 | Tìm hiểu các khái niệm cơ bản về AWS CloudFormation để quản lý cơ sở hạ tầng tự động bằng code. Thực hành Lab 000037. | [Lab 000037 - AWS CloudFormation](https://000037.awsstudygroup.com)|
+| 23/05/2026 | Thứ 7 | Lên văn phòng AWS thực tế, tham gia ngày hội công nghệ cộng đồng AWS Community Day, lắng nghe các bài thuyết trình chuyên sâu. | AWS Community Day |
+
+### Kết quả kỳ vọng
+
+* Thiết lập được luồng API Gateway và các resource backend cho hệ thống game.
+* Viết thành công hàm Lambda Python tương tác với API EC2 để tự động tắt/bật máy chủ tiết kiệm điện.
+* Thiết lập được REST API trên API Gateway có kích hoạt CORS.
+* Viết và deploy thành công template CloudFormation YAML cơ bản.
+* Mở rộng mạng lưới quan hệ công nghệ tại sự kiện AWS Community Day.
+
+### Tham chiếu tuần 5
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* [Lab 000022 - Tối ưu chi phí EC2 với Lambda](https://000022.awsstudygroup.com)
+* [Lab 000055 - Tạo và xuất bản API với Amazon API Gateway](https://000055.awsstudygroup.com)
+* [Lab 000037 - AWS CloudFormation](https://000037.awsstudygroup.com)

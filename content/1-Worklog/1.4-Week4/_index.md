@@ -1,24 +1,44 @@
 ---
-title: "Week 4 Worklog"
-date: 2024-01-01
+title: "Week 4 - Auto Scaling, Route 53, DynamoDB & CloudFront"
+date: 2026-04-17
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
+### Week Topic
 
+Study Auto Scaling, Route 53, CloudWatch, and high-availability design for the game backend API on AWS.
 
-### Week 4 Objectives:
+### Week Objectives
 
-* Experience Cloud-based Integrated Development Environments (IDE) with Cloud9.
-* Understand and master Amazon RDS (Relational Database Service).
-* Deploy a Web Server (EC2) connecting to a Database Server (RDS) architecture.
+* Complete the core traffic and backend service design for the game API platform.
+* Research Auto Scaling and Route 53 configurations for high-availability AWS deployments.
+* Review cloud monitoring and operational readiness for the backend services.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Learn about the Cloud IDE model, its pros and cons compared to Local IDEs. <br> - Introduction to AWS Cloud9, how it works, and how it connects to EC2 Instances. <br> - Set up an AWS Cloud9 Environment. | 05/11/2026 | 05/11/2026 | https://000049.awsstudygroup.com/en/ |
-| 3 | - Use AWS Cloud9 directly in the web browser, running basic shell commands. <br> - Test pulling code from GitHub to Cloud9, editing files, and running a test Node.js/Python app. <br> - Clean up the Cloud9 environment. | 05/12/2026 | 05/12/2026 | https://000049.awsstudygroup.com/en/ |
-| 4 | - In-depth introduction to Amazon Relational Database Service (RDS) and Managed Services concepts. <br> - Advantages of RDS over self-hosted EC2 Databases (Automated Backups, Multi-AZ, Read Replicas). | 05/13/2026 | 05/13/2026 | https://000005.awsstudygroup.com/en/ |
-| 5 | - Practice initializing a MySQL/PostgreSQL database on Amazon RDS. <br> - Configure networking (VPC, Subnet Group, Security Group) to allow only the EC2 Web Server access to RDS on ports 3306/5432. | 05/14/2026 | 05/14/2026 | https://000005.awsstudygroup.com/en/ |
-| 6 | - Initialize an EC2 Web Server. <br> - Install Database Clients on EC2, successfully connecting to Amazon RDS. <br> - Run a script to import sample data into RDS, testing SELECT and INSERT queries. <br> - Delete the RDS Instance to optimize costs. | 05/15/2026 | 05/15/2026 | https://000005.awsstudygroup.com/en/ |
+### Daily Work Log
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 11/05/2026 | Monday | Review the main API flow of the game backend and identify which services need scaling and routing support. | API Architecture |
+| 12/05/2026 | Tuesday | Learn Amazon EC2 Auto Scaling strategies to scale instances horizontally based on application load. Practice Lab 000006. | [Lab 000006 - Automate Application Scaling with Amazon EC2 Autoscaling](https://000006.awsstudygroup.com)|
+| 13/05/2026 | Wednesday | Study cloud monitoring with CloudWatch and hybrid DNS resolution setups with Route 53. Practice Lab 000008 and Lab 000010. | [Lab 000008 - Create System Monitor with Amazon Cloudwatch](https://000008.awsstudygroup.com)|
+| 14/05/2026 | Thursday | Install and verify AWS CLI commands on EC2 (Linux/Ubuntu) for automated resource operations. Practice Lab 000011. | [Lab 000011 - Using AWS CLI on Amazon EC2 (Windows/Ubuntu)](https://000011.awsstudygroup.com)|
+| 15/05/2026 | Friday | Construct a multi-tier High Availability (HA) web application using ALB and RDS Multi-AZ to support the backend game API. Practice Lab 000021. | [Lab 000021 - Highly Available Web Application Workshop](https://000021.awsstudygroup.com)|
+
+### Expected Outcomes
+
+* Define the main traffic and service topology for the game backend API.
+* Configure an Application Load Balancer (ALB) backed by an Auto Scaling Group.
+* Deploy CloudWatch alarms and Route 53 DNS record sets.
+* Write custom scripts utilizing AWS CLI to fetch cloud resource metadata.
+* Understand HA architecture concepts including load balancing and multi-AZ database replication.
+
+### Week 4 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* [Lab 000006 - Automate Application Scaling with Amazon EC2 Autoscaling](https://000006.awsstudygroup.com)
+* [Lab 000008 - Create System Monitor with Amazon Cloudwatch](https://000008.awsstudygroup.com)
+* [Lab 000010 - Set up an integrated hybrid DNS system with Amazon Route53](https://000010.awsstudygroup.com)
+* [Lab 000011 - Using AWS CLI on Amazon EC2 (Windows/Ubuntu)](https://000011.awsstudygroup.com)
+* [Lab 000021 - Highly Available Web Application Workshop](https://000021.awsstudygroup.com)

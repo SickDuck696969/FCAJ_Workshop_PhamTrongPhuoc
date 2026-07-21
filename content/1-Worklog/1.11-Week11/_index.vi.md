@@ -1,27 +1,38 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
+title: "Tuần 11 - Tích hợp backend & kiểm thử tải"
+date: 2026-04-17
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Mục tiêu tuần 11:
+### Chủ đề tuần
 
-* Trau chuốt giao diện (UI/UX) cho cả nền tảng Web và Mobile của ứng dụng.
-* Thiết lập hệ thống giám sát và cảnh báo (monitoring & alerting) trên AWS.
-* Chuẩn bị tài liệu thuyết trình và môi trường demo cho buổi báo cáo cuối kỳ.
+Tích hợp các module backend, chuẩn bị luồng deploy và thực hiện kiểm thử chịu tải trên hạ tầng đám mây cho workshop game API.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tối ưu hóa UI/UX trên React Frontend để nâng cao trải nghiệm người dùng. <br> - Tinh chỉnh giao diện và điều hướng của ứng dụng React Native Expo. | 29/06/2026 | 29/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Thực hiện kiểm thử E2E (End-to-End) cho tất cả các luồng người dùng chính. <br> - Sửa các lỗi giao diện và xử lý các corner cases ở backend. | 30/06/2026 | 30/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Cấu hình CloudWatch dashboard để theo dõi ứng dụng theo thời gian thực. <br> - Thiết lập cảnh báo SNS gửi thông báo khi có sự cố tài nguyên. | 01/07/2026 | 01/07/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Soạn thảo các script rollback và quy trình khắc phục sự cố (Disaster Recovery). <br> - Kiểm tra tính năng tự động sao lưu của RDS (Snapshots). | 02/07/2026 | 02/07/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Hoàn thiện tài liệu dự án, file README và slide thuyết trình. <br> - Quay video demo tổng quan các tính năng của sản phẩm. | 03/07/2026 | 03/07/2026 | https://github.com/vinhpham2808/J2EE |
+### Mục tiêu tuần
 
-### Kết quả mong đợi
-- UI/UX được hoàn thiện, vượt qua toàn bộ các kịch bản kiểm thử E2E.
-- Hệ thống CloudWatch Monitoring đi vào hoạt động kèm theo cảnh báo SNS.
-- Tài liệu, slide và video demo đã sẵn sàng cho buổi nộp bài.
+* Tích hợp thành công các module backend và cơ sở dữ liệu phục vụ workshop.
+* Hoàn thiện quy trình deploy và xác minh API hoạt động ổn định trên môi trường AWS.
+* Thực hiện kiểm thử chịu tải để đánh giá khả năng co giãn và giới hạn chịu tải của hạ tầng AWS.
+
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 29/06/2026 | Thứ 2 | Tích hợp module backend: ghép nối các service API, cấu hình database và rà soát dependencies để chuẩn bị quy trình deploy. | Project cuối kỳ |
+| 30/06/2026 | Thứ 3 | Kiểm thử triển khai và debug: xác minh endpoint API, kiểm tra kết nối service và chuẩn bị pipeline release cho game API. | Project cuối kỳ |
+| 01/07/2026 | Thứ 4 | Tiếp tục kiểm thử tích hợp và sửa lỗi runtime khi deploy backend lên AWS. | Project cuối kỳ |
+| 02/07/2026 | Thứ 5 | Kiểm thử chịu tải: Thiết lập kịch bản và chạy kiểm thử chịu tải (Load testing) lên hệ thống chạy trên AWS. Đánh giá tốc độ phản hồi của ALB và khả năng co giãn của Auto Scaling. | Project cuối kỳ |
+| 03/07/2026 | Thứ 6 | Kiểm thử chịu tải (tiếp tục): Phân tích kết quả test tải, tối ưu hóa kích thước connection pool của database, tinh chỉnh cấu hình phần cứng EC2 và tối ưu tài nguyên AWS. | Project cuối kỳ |
+
+### Kết quả kỳ vọng
+
+* Các module backend được tích hợp hoàn chỉnh và hoạt động trơn tru.
+* Quy trình deploy và kiểm thử hệ thống game API được hoàn thiện.
+* Hoàn thành kiểm thử chịu tải hệ thống và tối ưu hóa các quy tắc tự động co giãn.
+
+### Tham chiếu tuần 11
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* Kịch bản kiểm thử tải hệ thống trên AWS, tối ưu hóa hiệu năng EC2 Auto Scaling và cơ sở dữ liệu

@@ -1,24 +1,50 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
+title: "Tuần 3 - Workshop: kiến trúc, hạ tầng & API"
+date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
+### Chủ đề tuần
 
+Nghiên cứu và triển khai kiến trúc hệ thống máy chủ trên AWS theo workshop: từ tổng quan kiến trúc, quản lý hạ tầng, database, API Gateway, SQS FIFO, DLQ, EventBridge, Backup cho đến kiểm thử và dọn dẹp tài nguyên.
 
-### Mục tiêu tuần 3:
+### Mục tiêu tuần
 
-* Nắm vững dịch vụ lưu trữ đối tượng (Object Storage) lớn nhất của AWS - Amazon S3.
-* Hiểu về vòng đời dữ liệu và cách phân phối nội dung tĩnh (Static Website).
-* Ứng dụng CloudFront để tối ưu hóa tốc độ tải trang Web.
+* Hiểu tổng quan kiến trúc hệ thống máy chủ trò chơi trực tuyến trong workshop và xác định các tầng xử lý dữ liệu, lưu trữ và truyền tin.
+* Khởi tạo và cấu hình hạ tầng cơ sở trên AWS, bao gồm quản lý tài nguyên, IAM, region và stack deployment.
+* Thiết lập Aurora PostgreSQL, RDS Proxy và AWS Backup/S3 để xây dựng lớp dữ liệu và sao lưu tự động.
+* Triển khai API Gateway, Lambda backend, SQS FIFO, DLQ, CloudWatch và EventBridge để hoàn thiện luồng xử lý nghiệp vụ.
+* Thực hiện kiểm tra hiệu năng, xác nhận kết quả và dọn dẹp tài nguyên sau khi hoàn thành workshop.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Xem video và tài liệu lý thuyết Module 4 về các loại Storage trên AWS (Block, File, Object). <br> - Phân biệt sự khác nhau giữa EBS, EFS và S3. <br> - Tạo S3 Bucket, tải dữ liệu tĩnh (HTML, CSS, JS) và cấu hình bật tính năng Static Website Hosting. <br> - Cấu hình Block Public Access an toàn. | 04/05/2026 | 04/05/2026 | https://000057.awsstudygroup.com/vi/ |
-| 3 | - Quản lý Bucket Policy, cấp quyền Public Read để Internet có thể truy cập Web. <br> - Kiểm tra Website trên trình duyệt, verify cấu hình MIME type. <br> - Thiết lập Amazon CloudFront (CDN) phân phối nội dung S3 để giảm độ trễ (latency) cho người dùng toàn cầu. | 05/05/2026 | 05/05/2026 | https://000057.awsstudygroup.com/vi/ |
-| 4 | - Tìm hiểu tính năng S3 Versioning (Quản lý phiên bản file) để chống xóa nhầm hoặc ghi đè file. <br> - Cấu hình Lifecycle rules để chuyển đổi hạng lưu trữ (Storage Classes) nhằm tiết kiệm chi phí. <br> - Thực hành Cross-Region Replication (CRR) sao chép S3 Object sang Region khác để dự phòng. | 06/05/2026 | 06/05/2026 | https://000057.awsstudygroup.com/vi/ |
-| 5 | - Rà soát hệ thống kiến thức AWS S3: Security, Performance, Cost Management. <br> - Đọc thêm tài liệu về S3 Presigned URLs và S3 Select. <br> - Clean up toàn bộ S3 Buckets, CloudFront Distributions. | 07/05/2026 | 07/05/2026 | https://000057.awsstudygroup.com/vi/ |
-| 6 | - Review lại lý thuyết và hoàn thành các bài lab và dọn dẹp tài nguyên. | 08/05/2026 | 08/05/2026 |  |
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 04/05/2026 | Thứ 2 | Nghiên cứu tổng quan kiến trúc hệ thống và phân tích luồng dữ liệu của workshop: Compute Layer, Database Layer, API Gateway và hệ thống đồng bộ thời gian thực. | Workshop 5.1 - 5.2 |
+| 05/05/2026 | Thứ 3 | Thiết lập hạ tầng cơ sở và quản lý tài nguyên AWS, kiểm tra cấu hình region, credentials, IAM và quy trình deploy stack. | Workshop 5.2 |
+| 06/05/2026 | Thứ 4 | Xây dựng lớp cơ sở dữ liệu Aurora PostgreSQL, cấu hình RDS Proxy và thiết lập AWS Backup để tự động sao lưu dữ liệu lên S3 Storage. | Workshop 5.3 |
+| 07/05/2026 | Thứ 5 | Khởi tạo API Gateway, cấu hình Lambda backend, triển khai SQS FIFO, DLQ và CloudWatch monitor để đảm bảo xử lý event an toàn. | Workshop 5.5 - 5.7 |
+| 08/05/2026 | Thứ 6 | Cấu hình EventBridge, kiểm tra kết quả thực nghiệm, thực hiện dọn dẹp tài nguyên và tổng kết kiến thức từ workshop. | Workshop 5.8 - 5.11 |
+
+### Kết quả kỳ vọng
+
+* Nắm rõ kiến trúc tổng quan của hệ thống máy chủ trò chơi trực tuyến và vai trò của từng tầng trong workshop.
+* Khởi tạo được hạ tầng AWS cơ bản và triển khai stack theo quy trình đã học.
+* Thiết lập được database Aurora PostgreSQL và chính sách sao lưu dữ liệu bằng AWS Backup + S3.
+* Hoàn thiện được luồng truy cập API thông qua API Gateway cùng Lambda, SQS FIFO và DLQ.
+* Theo dõi và kiểm tra hệ thống bằng CloudWatch, EventBridge và các bước verification/testing trong workshop.
+
+### Tham chiếu tuần 3
+
+* [Workshop 5.1 - Tổng quan về kiến trúc hệ thống](../../5-Workshop/5.1-architecture-overview/)
+* [Workshop 5.2 - Khởi tạo hạ tầng cơ sở và quản lý](../../5-Workshop/5.2-management/)
+* [Workshop 5.3 - Xây dựng cơ sở dữ liệu và sao lưu](../../5-Workshop/5.3-database/)
+* [Workshop 5.5 - Khởi tạo Amazon API Gateway](../../5-Workshop/5.5-API-Gateway/)
+* [Workshop 5.6 - Amazon SQS FIFO](../../5-Workshop/5.6-sqs-fifo/)
+* [Workshop 5.7 - AWS DLQ & AWS CloudWatch](../../5-Workshop/5.7-sqs-dlq-and-cloudwatch/)
+* [Workshop 5.8 - AWS EventBridge](../../5-Workshop/5.8-eventbridge/)
+* [Workshop 5.9 - AWS Backup](../../5-Workshop/5.9-aws-backup/)
+* [Workshop 5.10 - Kiểm tra kết quả và thực nghiệm](../../5-Workshop/5.10-verification-and-testing/)
+* [Workshop 5.11 - Dọn dẹp tài nguyên](../../5-Workshop/5.11-clean-up/)

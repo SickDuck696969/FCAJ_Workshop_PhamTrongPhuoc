@@ -1,27 +1,36 @@
 ---
-title: "Week 12 Worklog"
-date: 2024-01-01
+title: "Week 12 - Optimization, Security & Submission"
+date: 2026-07-20
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-### Week 12 Objectives:
+### Weekly Focus
 
-* Complete final system checks including security hardening and cost analysis.
-* Conduct disaster recovery and failover tests.
-* Formally submit the Money Manager project and present the findings.
+Review the cloud infrastructure one last time, confirm the security posture, and finalize the project submission package.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Perform final security hardening checks across all AWS resources. <br> - Review the AWS billing dashboard and establish a cost optimization plan. | 07/06/2026 | 07/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Execute failover testing for RDS Multi-AZ to ensure data persistence during outages. <br> - Simulate ElastiCache failure and verify application resilience. | 07/07/2026 | 07/07/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Conduct a full dry run of the project presentation with the team. <br> - Make minor final adjustments to the slide deck and demo flow. | 07/08/2026 | 07/08/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Double-check the GitHub repository structure and source code documentation. <br> - Ensure all AWS infrastructure is running as intended for the evaluation. | 07/09/2026 | 07/09/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Formally submit the internship report, source code, and project files. | 07/10/2026 | 07/10/2026 | https://github.com/vinhpham2808/J2EE |
+### Objectives
+
+* Conduct security audits and verify application defense mechanisms on AWS.
+* Draw the final architecture diagrams, write technical documentation, and complete the project submission.
+
+### Work Schedule
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 20/07/2026 | Monday | Security review: verify Security Groups, validate IAM role restrictions, and confirm HTTPS readiness through AWS ACM. | Final Project |
+| 21/07/2026 | Tuesday | Continue the security review: assess WAF protection, validate access controls, and prepare the final submission package. | Final Project |
+| 22/07/2026 | Wednesday | Finalize documentation and complete the submission handoff package. | Final Project |
 
 ### Expected Outcomes
-- AWS architecture fully secured and optimized for cost.
-- High Availability validated through successful recovery/failover testing.
-- Successful project submission and final presentation of the Money Manager application.
+
+* Final security review completed for the AWS deployment.
+* Technical documentation and architecture artifacts ready for submission.
+* Project submission package prepared for the final handoff.
+
+### Week 12 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* AWS Security Best Practices, IAM policies, AWS Certificate Manager, and AWS WAF
+* Final Project Architecture Diagrams, deployment guidelines, and submission package

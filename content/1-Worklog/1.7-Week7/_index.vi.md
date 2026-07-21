@@ -1,27 +1,39 @@
 ---
-title: "Worklog Tuần 7"
-date: 2024-01-01
+title: "Tuần 7 - Khởi động dự án cuối kỳ & phân tích"
+date: 2026-04-17
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Mục tiêu tuần 7:
+### Chủ đề tuần
 
-* Khởi động đồ án cuối khóa: Ứng dụng Money Manager.
-* Phân tích yêu cầu bài toán và lên ý tưởng cho kiến trúc AWS.
-* Thiết lập môi trường phát triển (dev environment) và chuẩn bị cho đợt deploy đầu tiên.
+Tối ưu hóa API backend game, kiểm tra hiệu năng truy vấn dữ liệu và nghiên cứu cache cho hệ thống workshop.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Họp nhóm để xác định phạm vi dự án và các tính năng cốt lõi của Money Manager. <br> - Tìm hiểu cấu trúc mã nguồn Spring Boot (Backend) và React (Frontend). | 01/06/2026 | 01/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Phân tích yêu cầu cơ sở dữ liệu và quyết định sử dụng RDS MySQL. <br> - Phác thảo sơ đồ kiến trúc triển khai trên AWS (EC2, RDS, S3). | 02/06/2026 | 02/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Cài đặt môi trường phát triển local (Java, Node.js, Docker). <br> - Chạy thử ứng dụng Money Manager ở local để hiểu luồng nghiệp vụ chính. | 03/06/2026 | 03/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Khởi tạo EC2 instance đầu tiên trên AWS để thử nghiệm quá trình deploy. <br> - Cấu hình Security Group cơ bản cho việc testing. | 04/06/2026 | 04/06/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Triển khai thành công backend lên EC2 và kiểm tra kết nối cơ bản. <br> - Tổng kết tiến độ tuần 7 và hoàn thiện báo cáo worklog. | 05/06/2026 | 05/06/2026 | https://github.com/vinhpham2808/J2EE |
+### Mục tiêu tuần
 
-### Kết quả mong đợi
-- Nắm vững phạm vi dự án và kiến trúc tổng thể của Money Manager.
-- Môi trường phát triển local hoạt động ổn định.
-- Deploy bản nháp thành công lên AWS EC2.
+* Làm việc trực tiếp tại văn phòng AWS ngày 1/6.
+* Tối ưu hóa hiệu năng backend API và cấu trúc truy vấn dữ liệu game.
+* Nâng cao tốc độ phản hồi API bằng cách tối ưu hóa cơ sở dữ liệu và tầng cache.
+
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 01/06/2026 | Thứ 2 | Lên văn phòng AWS thực tế làm việc, báo cáo kế hoạch tối ưu hóa các module backend và hạ tầng workshop với cán bộ hướng dẫn. | On-site AWS |
+| 02/06/2026 | Thứ 3 | Tối ưu hóa các truy vấn database JPA/Hibernate ở backend Spring Boot, tránh lỗi N+1 và giảm thiểu thời gian truy xuất MySQL. | Backend Code |
+| 03/06/2026 | Thứ 4 | Phân tích cơ chế caching dữ liệu tĩnh bằng Redis ElastiCache để lưu các cấu hình hệ thống ít thay đổi. | Tối ưu Caching |
+| 04/06/2026 | Thứ 5 | Tinh chỉnh mô hình dữ liệu API và xây dựng flow xử lý sự kiện cho backend game. | API Optimization |
+| 05/06/2026 | Thứ 6 | Khắc phục các lỗi liên quan đến đồng bộ dữ liệu và kiểm thử kết nối API ổn định khi có mạng. | Kiểm thử Tích hợp |
+
+### Kết quả kỳ vọng
+
+* Hoàn thành kế hoạch on-site tuần 7, thống nhất cấu trúc tối ưu với mentor.
+* Tốc độ phản hồi các API chính tăng lên, thời gian query MySQL giảm đi rõ rệt.
+* Thiết lập thành công cơ chế cache bằng Redis cho cấu hình hệ thống.
+* Backend game API hoạt động ổn định hơn trong các luồng request thực tế.
+
+### Tham chiếu tuần 7
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* Dịch vụ AWS: EC2, RDS MySQL, ElastiCache Redis, API Gateway

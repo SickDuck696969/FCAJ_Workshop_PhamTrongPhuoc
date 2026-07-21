@@ -1,27 +1,38 @@
 ---
-title: "Week 9 Worklog"
-date: 2024-01-01
+title: "Week 9 - Project Development & AWS Deployment"
+date: 2026-04-17
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Week 9 Objectives:
+### Week Topic
 
-* Focus on building the core features of the Money Manager application (Frontend & Backend).
-* Execute the AWS deployment plan based on the architecture designed in Week 8.
-* Establish secure connections between AWS services.
+Finalizing architecture diagrams, writing tech blogs, and end-to-end testing for the game backend API workshop.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Develop core business APIs (income, expense tracking, budget limits). <br> - Implement basic access control and user authentication modules. | 06/15/2026 | 06/15/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Provision RDS MySQL instances and set up the schema. <br> - Connect the Spring Boot backend to RDS and test database transactions. | 06/16/2026 | 06/16/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Configure ElastiCache Redis for session management and caching. <br> - Integrate caching into the backend to optimize response times. | 06/17/2026 | 06/17/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Deploy the backend on EC2 instances within an Auto Scaling Group. <br> - Set up an Application Load Balancer (ALB) to distribute incoming traffic. | 06/18/2026 | 06/18/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Perform end-to-end testing of the core flows on the AWS environment. <br> - Document the deployment steps and update the Week 9 worklog. | 06/19/2026 | 06/19/2026 | https://github.com/vinhpham2808/J2EE |
+### Week Objectives
+
+* Finalize the comprehensive AWS infrastructure diagram using modeling tools for the internship report.
+* Research, draft, and publish technical blog posts sharing cloud infrastructure concepts.
+* Conduct comprehensive integration tests on the game backend API.
+
+### Daily Work Log
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 15/06/2026 | Monday | Utilize Draw.io to design and export the final AWS cloud architecture topology for the internship project. | Architecture Documentation |
+| 16/06/2026 | Tuesday | Research and write a technical article on AWS Lambda Durable Functions (Concepts, patterns). | Blog 1 Draft |
+| 17/06/2026 | Wednesday | Research and write a technical article on OpenSearch Serverless NextGen (Features, search scaling). | Blog 2 Draft |
+| 18/06/2026 | Thursday | Research and write a technical article on AWS Lambda Managed Instances (Performance and cost comparisons). | Blog 3 Draft |
+| 19/06/2026 | Friday | Publish the three technical blogs on the portfolio site and conduct final backend integration checks. | Integration Testing |
 
 ### Expected Outcomes
-- Functional core business APIs with integrated authentication.
-- Backend successfully deployed on EC2 with ALB and Auto Scaling.
-- RDS MySQL and ElastiCache Redis fully configured and securely connected.
+
+* Finalized and documented AWS cloud architecture topology ready for the final report.
+* Publish 3 high-quality technical blogs sharing AWS cloud knowledge on the portfolio website.
+* Complete integration checks between API services and backend supporting components, resolving minor connectivity bugs.
+
+### Week 9 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* Technical Blogs: AWS Lambda Durable Functions, OpenSearch Serverless, AWS Lambda Managed Instances

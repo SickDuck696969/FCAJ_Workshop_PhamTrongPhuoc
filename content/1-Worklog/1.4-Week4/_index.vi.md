@@ -1,24 +1,44 @@
 ---
-title: "Worklog Tuần 4"
-date: 2024-01-01
+title: "Tuần 4 - Auto Scaling, Route 53, DynamoDB & CloudFront"
+date: 2026-04-17
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
+### Chủ đề tuần
 
+Nghiên cứu Auto Scaling, Route 53, CloudWatch và thiết kế kiến trúc HA cho hệ thống game backend API trên AWS.
 
-### Mục tiêu tuần 4:
+### Mục tiêu tuần
 
-* Trải nghiệm môi trường phát triển tích hợp (IDE) trên Cloud với Cloud9.
-* Hiểu và làm chủ dịch vụ quản trị cơ sở dữ liệu quan hệ Amazon RDS.
-* Triển khai kiến trúc Web Server (EC2) kết nối Database Server (RDS).
+* Hoàn thiện sơ đồ luồng traffic và cấu trúc hạ tầng cho backend game API.
+* Tìm hiểu cơ chế Amazon EC2 Auto Scaling, Route 53 DNS và thiết kế hệ thống có tính sẵn sàng cao (High Availability).
+* Rà soát giám sát hạ tầng bằng CloudWatch và chuẩn bị cho các bài thực hành tiếp theo.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu về mô hình Cloud IDE, ưu nhược điểm so với Local IDE. <br> - Giới thiệu dịch vụ AWS Cloud9, cách thức hoạt động và kết nối với EC2 Instance. <br> - Tạo môi trường AWS Cloud9 Environment. | 11/05/2026 | 11/05/2026 | https://000049.awsstudygroup.com/vi/ |
-| 3 | - Sử dụng AWS Cloud9 trực tiếp trên trình duyệt web, chạy các lệnh shell cơ bản. <br> - Thử nghiệm pull code từ GitHub về Cloud9, chỉnh sửa file và chạy ứng dụng Node.js/Python thử nghiệm. <br> - Dọn dẹp môi trường Cloud9. | 12/05/2026 | 12/05/2026 | https://000049.awsstudygroup.com/vi/ |
-| 4 | - Giới thiệu sâu về Amazon Relational Database Service (Amazon RDS) và khái niệm Managed Services. <br> - Ưu điểm của RDS so với việc tự dựng Database trên EC2 (Automated Backups, Multi-AZ, Read Replicas). | 13/05/2026 | 13/05/2026 | https://000005.awsstudygroup.com/vi/ |
-| 5 | - Thực hành khởi tạo cơ sở dữ liệu MySQL/PostgreSQL trên Amazon RDS. <br> - Cấu hình mạng (VPC, Subnet Group, Security Group) cho phép chỉ có EC2 Web Server mới được truy cập RDS ở port 3306/5432. | 14/05/2026 | 14/05/2026 | https://000005.awsstudygroup.com/vi/ |
-| 6 | - Khởi tạo một Web Server EC2. <br> - Cài đặt Database Client trên EC2, kết nối thành công tới Amazon RDS. <br> - Chạy script import dữ liệu mẫu vào RDS, test các truy vấn SELECT, INSERT. <br> - Xóa RDS Instance để tối ưu chi phí. | 15/05/2026 | 15/05/2026 | https://000005.awsstudygroup.com/vi/ |
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 11/05/2026 | Thứ 2 | Phân tích luồng truy cập API chính của hệ thống game backend, xác định thành phần chịu tải và vùng triển khai. | Kiến trúc API |
+| 12/05/2026 | Thứ 3 | Nghiên cứu cơ chế mở rộng tự động EC2 Auto Scaling để tự động tăng giảm số lượng instance theo lưu lượng tải. Thực hành Lab 000006. | [Lab 000006 - Tự động co giãn ứng dụng với EC2 Auto Scaling](https://000006.awsstudygroup.com)|
+| 13/05/2026 | Thứ 4 | Nghiên cứu giám sát hạ tầng đám mây bằng CloudWatch và quản lý DNS nội bộ bằng Route 53. Thực hành Lab 000008 và Lab 000010. | [Lab 000008 - Tạo giám sát hệ thống với Amazon CloudWatch](https://000008.awsstudygroup.com)|
+| 14/05/2026 | Thứ 5 | Cài đặt và sử dụng AWS CLI trên máy chủ EC2 để tự động hóa quản trị đám mây cho backend API. Thực hành Lab 000011. | [Lab 000011 - Sử dụng AWS CLI trên Amazon EC2](https://000011.awsstudygroup.com)|
+| 15/05/2026 | Thứ 6 | Tìm hiểu và triển khai kiến trúc Web đa tầng High Availability (HA) sử dụng ALB và RDS Multi-AZ hỗ trợ backend game. Thực hành Lab 000021. | [Lab 000021 - Bài thực hành ứng dụng Web độ sẵn sàng cao](https://000021.awsstudygroup.com)|
+
+### Kết quả kỳ vọng
+
+* Xác định được luồng traffic và thành phần triển khai chính của hệ thống game backend API.
+* Cấu hình thành công Auto Scaling Group kết hợp Application Load Balancer (ALB).
+* Tạo CloudWatch Alarms và thiết lập các bản ghi DNS với Route 53.
+* Viết script AWS CLI tương tác với tài nguyên AWS để hỗ trợ vận hành.
+* Hiểu rõ cách thiết kế hệ thống HA chịu lỗi tốt bằng RDS Multi-AZ và ALB.
+
+### Tham chiếu tuần 4
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* [Lab 000006 - Tự động co giãn ứng dụng với EC2 Auto Scaling](https://000006.awsstudygroup.com)
+* [Lab 000008 - Tạo giám sát hệ thống với Amazon CloudWatch](https://000008.awsstudygroup.com)
+* [Lab 000010 - Quản lý DNS với Amazon Route 53](https://000010.awsstudygroup.com)
+* [Lab 000011 - Sử dụng AWS CLI trên Amazon EC2](https://000011.awsstudygroup.com)
+* [Lab 000021 - Bài thực hành ứng dụng Web độ sẵn sàng cao](https://000021.awsstudygroup.com)

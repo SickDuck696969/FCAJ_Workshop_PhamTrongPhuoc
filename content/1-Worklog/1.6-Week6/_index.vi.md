@@ -1,24 +1,40 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
+title: "Tuần 6 - CloudFormation & DynamoDB"
+date: 2026-04-17
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
+### Chủ đề tuần
 
+Tìm hiểu Amazon DynamoDB và mô hình lưu trữ NoSQL cho game backend API trong workshop AWS.
 
-### Mục tiêu tuần 6:
+### Mục tiêu tuần
 
-* Xây dựng nền tảng giám sát (Monitoring) hệ thống vững chắc với CloudWatch.
-* Quản lý DNS và định tuyến lưu lượng truy cập với Amazon Route53.
-* Ứng dụng các công cụ này vào giải quyết bài toán vận hành hệ thống thực tế.
+* Báo cáo tiến độ trực tiếp với mentor tại văn phòng AWS.
+* Nghiên cứu cơ chế NoSQL của Amazon DynamoDB để lưu trữ dữ liệu có tính biến động và truy vấn nhanh.
+* Tăng cường hiểu biết về model dữ liệu và cách tích hợp DynamoDB với backend API.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Giới thiệu Amazon CloudWatch: Metrics, Logs, và Events/EventBridge. <br> - Tầm quan trọng của việc thu thập log hệ thống và đặt cảnh báo (Alarms) trong quá trình vận hành. | 25/05/2026 | 25/05/2026 | https://000008.awsstudygroup.com/vi/ |
-| 3 | - Thực hành cài đặt CloudWatch Agent lên EC2 để đẩy Memory/Disk metrics lên AWS. <br> - Xây dựng CloudWatch Dashboards giám sát tập trung các chỉ số. <br> - Tạo Billing Alarm gửi email khi chi phí vượt quá giới hạn $5. | 26/05/2026 | 26/05/2026 | https://000008.awsstudygroup.com/vi/ |
-| 4 | - Giới thiệu dịch vụ Amazon Route53: Quản lý Domain, DNS Routing, Health Checks. <br> - Tìm hiểu các cơ chế Routing Policy (Simple, Weighted, Latency, Failover, Geolocation). | 27/05/2026 | 27/05/2026 | https://000010.awsstudygroup.com/vi/ |
-| 5 | - Khởi tạo Route53 Hosted Zone. <br> - Cấu hình thiết lập hệ thống DNS Hybrid (lai) tích hợp giải quyết tên miền nội bộ giữa mạng Local (On-premise giả lập) và Amazon VPC. | 28/05/2026 | 28/05/2026 | https://000010.awsstudygroup.com/vi/ |
-| 6 | - Cấu hình các bản ghi (A, CNAME, ALIAS) trên Route53 trỏ về máy chủ EC2 hoặc S3 Static Website. <br> - Cấu hình Health Check để route traffic sang hệ thống backup nếu máy chủ chính bị lỗi. | 29/05/2026 | 29/05/2026 | https://000010.awsstudygroup.com/vi/ |
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 25/05/2026 | Thứ 2 | Lên văn phòng AWS thực tế làm việc, thảo luận tiến độ triển khai service backend và hạ tầng hỗ trợ workshop. | Báo cáo tiến độ |
+| 26/05/2026 | Thứ 3 | Xác định mô hình dữ liệu cho các cấu trúc game state và bảng NoSQL cần lưu trong DynamoDB. | Data Modeling |
+| 27/05/2026 | Thứ 4 | Tìm hiểu cơ sở dữ liệu phi cấu trúc Amazon DynamoDB, cấu trúc bảng NoSQL, partition key và capacity modes. Thực hành Lab 000060. | [Lab 000060 - Làm việc với Amazon DynamoDB](https://000060.awsstudygroup.com)|
+| 28/05/2026 | Thứ 5 | Nghiên cứu sâu cơ chế lập chỉ mục GSI, LSI và quản lý dung lượng DynamoDB. Tiếp tục Lab 000060. | [Lab 000060 - Làm việc với Amazon DynamoDB](https://000060.awsstudygroup.com)|
+| 29/05/2026 | Thứ 6 | Hoàn thiện kỹ năng viết code mẫu Infrastructure as Code với CloudFormation để tạo nhanh stack hạ tầng. Thực hành Lab 000037. | [Lab 000037 - AWS CloudFormation](https://000037.awsstudygroup.com)|
+
+### Kết quả kỳ vọng
+
+* Nhận được nhận xét, góp ý định hướng từ mentor tại văn phòng AWS.
+* Hiểu rõ cách thiết kế bảng DynamoDB phù hợp với dữ liệu game backend API.
+* Khởi tạo thành công DynamoDB table, hiểu cách truy vấn dữ liệu theo partition key.
+* Cấu hình và deploy thành công các stack CloudFormation phức tạp.
+
+### Tham chiếu tuần 6
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* [Lab 000037 - AWS CloudFormation](https://000037.awsstudygroup.com)
+* [Lab 000060 - Làm việc với Amazon DynamoDB](https://000060.awsstudygroup.com)

@@ -1,27 +1,38 @@
 ---
-title: "Week 11 Worklog"
-date: 2024-01-01
+title: "Week 11 - Backend Integration & Load Testing"
+date: 2026-04-17
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives:
+### Weekly Focus
 
-* Refine the Money Manager UI/UX for both Web and Mobile platforms.
-* Implement robust monitoring and logging on AWS.
-* Prepare presentation materials and demo environment for the final submission.
+Integrating backend modules, preparing deployment flows, and executing system-wide load testing on AWS for the game API workshop.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Polish the React Frontend UI to ensure a seamless and responsive user experience. <br> - Enhance the React Native Expo app layout and navigation. | 06/29/2026 | 06/29/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Conduct End-to-End (E2E) testing across all primary user journeys. <br> - Fix identified UI bugs and edge-case backend issues. | 06/30/2026 | 06/30/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Set up Amazon CloudWatch dashboards for real-time application monitoring. <br> - Configure SNS alarms to alert the team of critical performance anomalies. | 07/01/2026 | 07/01/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Write rollback scripts and finalize the disaster recovery procedure. <br> - Verify database automated backups (RDS Snapshots). | 07/02/2026 | 07/02/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Prepare the final project documentation, README files, and presentation slides. <br> - Record a video demo of the working product. | 07/03/2026 | 07/03/2026 | https://github.com/vinhpham2808/J2EE |
+### Objectives
+
+* Complete integration of backend modules and database services.
+* Validate deployment readiness and API behavior for production-style environments.
+* Perform load testing to evaluate infrastructure elasticity and response times under high traffic.
+
+### Work Schedule
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 29/06/2026 | Monday | Application module integration: integrate backend API modules, database schemas, and supporting services. Prepare build-time configurations and clean up package dependencies. | Final Project |
+| 30/06/2026 | Tuesday | Deploy validation and runtime bug testing: verify API endpoints, service connectivity, and release pipeline readiness. | Final Project |
+| 01/07/2026 | Wednesday | Continue integration testing and fix runtime issues during backend deployment on AWS. | Final Project |
+| 02/07/2026 | Thursday | Load testing: set up testing scripts and perform initial load testing on the AWS infrastructure. Evaluate HTTP response metrics and monitor Auto Scaling Group scalability. | Final Project |
+| 03/07/2026 | Friday | Load testing (continued): identify resource bottlenecks under load. Optimize database connection pooling, adjust EC2 performance parameters, and verify target response scaling times. | Final Project |
 
 ### Expected Outcomes
-- Refined UI/UX and successful E2E test passes.
-- CloudWatch monitoring dashboards live with active SNS alerts.
-- Project documentation, presentation slides, and demo video ready for submission.
+
+* All backend application modules integrated and functioning properly.
+* Deployment and API validation completed for the game backend system.
+* Load testing completed, system capacity limits identified, and auto-scaling rules optimized.
+
+### Week 11 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* AWS Load Testing methodologies, EC2 Auto Scaling, and database query optimization

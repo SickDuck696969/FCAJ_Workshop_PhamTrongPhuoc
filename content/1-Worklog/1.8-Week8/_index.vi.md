@@ -1,27 +1,40 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
+title: "Tuần 8 - AWS Well-Architected, SAM & thiết kế kiến trúc"
+date: 2026-04-17
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Mục tiêu tuần 8:
+### Chủ đề tuần
 
-* Tìm hiểu các nguyên tắc của AWS Well-Architected Framework và AWS SAM.
-* Áp dụng các best practice để thiết kế kiến trúc chuẩn cho ứng dụng Money Manager.
-* Hoàn thiện sơ đồ kiến trúc AWS chi tiết cho dự án.
+Họp nhóm thiết kế kiến trúc hạ tầng AWS cho game backend API, theo chuẩn AWS Well-Architected.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Nghiên cứu 5 trụ cột của AWS Well-Architected Framework (Bảo mật, Độ tin cậy, Hiệu suất, v.v.). <br> - Đánh giá cách áp dụng các trụ cột này vào dự án Money Manager. | 08/06/2026 | 08/06/2026 | https://www.wellarchitectedlabs.com |
-| 3 | - Thực hành làm quen với AWS SAM (Serverless Application Model). <br> - Lên bản nháp các thành phần serverless sẽ sử dụng trong dự án. | 09/06/2026 | 09/06/2026 | https://www.wellarchitectedlabs.com |
-| 4 | - Thiết kế mạng High Availability: VPC Multi-AZ, Public/Private subnets. <br> - Lên kế hoạch tích hợp Application Load Balancer (ALB) và EC2 Auto Scaling Group. | 10/06/2026 | 10/06/2026 | https://www.wellarchitectedlabs.com |
-| 5 | - Chốt thiết kế tầng dữ liệu (Data Layer) bao gồm RDS MySQL, ElastiCache, và DynamoDB. <br> - Quy hoạch luồng xử lý bất đồng bộ sử dụng SQS, Lambda và SNS. | 11/06/2026 | 11/06/2026 | https://www.wellarchitectedlabs.com |
-| 6 | - Hoàn tất sơ đồ kiến trúc AWS tổng thể cho Money Manager. <br> - Cùng nhóm review lại thiết kế và hoàn thiện worklog tuần 8. | 12/06/2026 | 12/06/2026 | https://www.wellarchitectedlabs.com |
+### Mục tiêu tuần
 
-### Kết quả mong đợi
-- Nắm vững 5 trụ cột của AWS Well-Architected Framework.
-- Làm quen với cách triển khai ứng dụng qua AWS SAM.
-- Hoàn thành sơ đồ kiến trúc AWS đạt chuẩn High Availability và Fault Tolerance cho Money Manager.
+* Vẽ sơ đồ kiến trúc hạ tầng đám mây AWS chi tiết cho game backend API theo chuẩn AWS Well-Architected.
+* Khảo sát cấu trúc VPC, ALB, EC2 ASG, RDS, SQS, S3 và Route 53 phục vụ hệ thống backend game.
+* Xác định sơ đồ bảo mật, độ tin cậy và độ sẵn sàng của hệ thống.
+
+### Lịch công việc
+
+| Ngày | Thứ | Nội dung công việc | Lab / Dự án |
+|---|---|---|---|
+| 08/06/2026 | Thứ 2 | Họp nhóm thiết kế phác thảo kiến trúc VPC (VPC CIDR, chia các Subnet ở nhiều Availability Zone để đảm bảo HA). | Kiến trúc Đám mây |
+| 09/06/2026 | Thứ 3 | Cấu hình sơ đồ điều phối traffic: ALB trong Public Subnet hướng traffic vào các EC2 nằm ở Private Subnet. | Network Design |
+| 10/06/2026 | Thứ 4 | Thiết kế luồng xử lý bất đồng bộ: SQS queue kết hợp với worker service để xử lý các background job cho game backend. | Async Workflow |
+| 11/06/2026 | Thứ 5 | Rà soát mô hình backup, truy cập mạng và logging cho backend API. | System Review |
+| 12/06/2026 | Thứ 6 | Rà soát sơ đồ thiết kế hạ tầng theo 5 trụ cột AWS Well-Architected (Bảo mật, Hiệu năng, Tối ưu chi phí, Độ tin cậy, Vận hành xuất sắc). | Well-Architected Review |
+
+### Kết quả kỳ vọng
+
+* Hoàn thành bản thảo sơ đồ kiến trúc mạng VPC multi-AZ có tính dự phòng cao.
+* Xác định rõ luồng định tuyến và bảo mật từ bên ngoài qua ALB vào máy chủ nội bộ.
+* Tích hợp thành công cấu trúc hàng đợi SQS để xử lý tác vụ bất đồng bộ cho backend game.
+* Tài liệu hóa kiến trúc hạ tầng theo đúng chuẩn AWS Well-Architected Framework.
+
+### Tham chiếu tuần 8
+
+* [Repo dự án](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* AWS Well-Architected Framework
+* Sơ đồ hạ tầng: VPC, ALB, EC2 ASG, RDS, SQS, S3, Route 53

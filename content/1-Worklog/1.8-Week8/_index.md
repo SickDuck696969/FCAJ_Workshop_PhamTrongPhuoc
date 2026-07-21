@@ -1,27 +1,39 @@
 ---
-title: "Week 8 Worklog"
-date: 2024-01-01
+title: "Week 8 - AWS Well-Architected, SAM & Architecture Design"
+date: 2026-04-17
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Week 8 Objectives:
+### Week Topic
 
-* Learn the principles of the AWS Well-Architected Framework and AWS SAM.
-* Apply these best practices to design a robust architecture for Money Manager.
-* Finalize the comprehensive AWS architecture diagram for the project.
+AWS infrastructure design meeting and architecture review for the game backend API.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Study the 5 pillars of the AWS Well-Architected Framework (Security, Reliability, Performance, etc.). <br> - Identify how to apply these pillars to the Money Manager application. | 06/08/2026 | 06/08/2026 | https://www.wellarchitectedlabs.com |
-| 3 | - Gain hands-on experience with AWS SAM (Serverless Application Model). <br> - Draft the initial serverless components for our project. | 06/09/2026 | 06/09/2026 | https://www.wellarchitectedlabs.com |
-| 4 | - Design a highly available network architecture: Multi-AZ VPC, Public/Private subnets. <br> - Plan the integration of Application Load Balancer (ALB) and EC2 Auto Scaling Group. | 06/10/2026 | 06/10/2026 | https://www.wellarchitectedlabs.com |
-| 5 | - Finalize the data layer architecture involving RDS MySQL, ElastiCache, and DynamoDB. <br> - Plan the asynchronous processing flow using SQS, Lambda, and SNS. | 06/11/2026 | 06/11/2026 | https://www.wellarchitectedlabs.com |
-| 6 | - Complete the full AWS architecture diagram for the Money Manager project. <br> - Review the design with the team and push the finalized week 8 worklog. | 06/12/2026 | 06/12/2026 | https://www.wellarchitectedlabs.com |
+### Week Objectives
+
+* Draft the detailed AWS cloud architecture diagram for the game backend API aligned with AWS Well-Architected best practices.
+* Review the VPC, ALB, EC2, RDS, SQS, and S3 service interactions used by the backend workshop.
+
+### Daily Work Log
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 08/06/2026 | Monday | Team session mapping out the custom VPC configuration (multi-AZ subnets, CIDR boundaries for high availability). | Cloud Architecture |
+| 09/06/2026 | Tuesday | Design public/private subnet routing, placing the ALB in public subnets and backend EC2 instances in private subnets. | Networking |
+| 10/06/2026 | Wednesday | Design asynchronous background pipelines using SQS queues and Worker containers for backend game processing. | Asynchronous Jobs |
+| 11/06/2026 | Thursday | Review the interaction between backend services, storage, and ingress controls for the game API. | System Review |
+| 12/06/2026 | Friday | Evaluate the drafted architecture against the five pillars of the AWS Well-Architected Framework. | Well-Architected |
 
 ### Expected Outcomes
-- Deep understanding of the 5 pillars of the AWS Well-Architected Framework.
-- Familiarity with AWS SAM for serverless deployments.
-- Finalized, robust AWS architecture design for Money Manager incorporating HA and fault tolerance.
+
+* Completed VPC network diagram detailing subnets, route tables, and gateways across two AZs.
+* Clear security policy defining access routes through the Application Load Balancer.
+* Defined SQS queue specifications and message schemas for backend asynchronous jobs.
+* Technical architecture notes aligned with AWS Well-Architected pillars.
+
+### Week 8 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* AWS Well-Architected Framework
+* Cloud Architecture tools (Draw.io)

@@ -1,27 +1,40 @@
 ---
-title: "Week 10 Worklog"
-date: 2024-01-01
+title: "Week 10 - Security, CI/CD & Testing"
+date: 2026-04-17
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives:
+### Week Topic
 
-* Harden system security using IAM, WAF, and standard authentication protocols.
-* Integrate asynchronous AWS services to handle background processing.
-* Conduct comprehensive testing to ensure system stability.
+Production deployment planning, infrastructure hardening, and report drafting for the game backend API.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Configure stringent IAM roles and policies following the principle of least privilege. <br> - Implement JWT/OAuth2 for secure API authentication. | 06/22/2026 | 06/22/2026 | https://github.com/vinhpham2808/J2EE |
-| 3 | - Set up Cloudflare WAF (Web Application Firewall) to protect against common web exploits. <br> - Configure SSL/TLS certificates for encrypted data transit. | 06/23/2026 | 06/23/2026 | https://github.com/vinhpham2808/J2EE |
-| 4 | - Integrate SQS queues for asynchronous messaging. <br> - Set up EC2 worker nodes to consume messages from SQS. | 06/24/2026 | 06/24/2026 | https://github.com/vinhpham2808/J2EE |
-| 5 | - Create AWS Lambda functions to handle background tasks (e.g., uploading files to S3). <br> - Test the async flow: SQS -> Worker -> Lambda -> S3. | 06/25/2026 | 06/25/2026 | https://github.com/vinhpham2808/J2EE |
-| 6 | - Write and execute comprehensive integration tests for critical business logic. <br> - Review security settings and complete the Week 10 worklog. | 06/26/2026 | 06/26/2026 | https://github.com/vinhpham2808/J2EE |
+### Week Objectives
+
+* Establish the production release strategy and deployment check-lists.
+* Deploy the live backend components on AWS with the correct routing and protection layers.
+* Start drafting the final internship report chapters.
+
+### Daily Work Log
+
+| Date | Day | Work Items | Lab / Project |
+|---|---|---|---|
+| 22/06/2026 | Monday | Team sync mapping out the production release checklist, secrets manager configurations, and API endpoints. | Release Planning |
+| 23/06/2026 | Tuesday | Configure Route 53 DNS records and set up Cloudflare WAF protection proxying to the AWS Application Load Balancer. | Domain & Security |
+| 24/06/2026 | Wednesday | Deploy backend API and Worker containers on EC2 hosts within the private subnets, establishing live database links. | Live Deployment |
+| 25/06/2026 | Thursday | Begin writing the official Internship Report (Company Introduction and Software Requirements chapters). | Report Drafting |
+| 26/06/2026 | Friday | Write the technical infrastructure chapter of the report, describing private routing and cost-saving metrics. | Report Drafting |
 
 ### Expected Outcomes
-- System security robustly configured with IAM, Cloudflare WAF, and JWT/OAuth2.
-- Asynchronous processing pipeline (SQS -> EC2 -> Lambda -> S3) functioning smoothly.
-- Solid test coverage achieved for main APIs and critical background jobs.
+
+* Release checklist finalized for the production backend API environment.
+* DNS and ingress protection configured properly for the live AWS deployment.
+* API and background services fully functional in the AWS production environment.
+* Completed drafts for the first two chapters of the Internship Report.
+
+### Week 10 References
+
+* [Project Repository](https://github.com/SuKem0703/BNGROUP_GAMEAPI) — Game Backend API
+* AWS domain and ingress protection configuration
+* Internship Report document
