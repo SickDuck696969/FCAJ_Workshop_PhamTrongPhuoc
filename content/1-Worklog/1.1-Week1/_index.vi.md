@@ -25,4 +25,4 @@ pre: " <b> 1.1. </b> "
 * Đã tạo thành công tài khoản AWS Free Tier và nắm được các hạn mức sử dụng miễn phí.
 * Đã tìm được thành viên nhóm và chốt thành công đề tài: Xây dựng Server Game Restful API với các dịch vụ của AWS.
 * Nắm được danh sách các dịch vụ AWS Free Tier có thể tận dụng cho dự án.
-* Đã tham gia hội thảo ([ảnh minh chứng](/images/evidence/chung-nhan-tuan-1.jpg)).
+* Đã tham gia hội thảo.

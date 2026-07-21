@@ -25,4 +25,4 @@ pre: " <b> 1.1. </b> "
 * Successfully created an AWS Free Tier account and learned about free service limits.
 * Found team members and finalized the project topic: Building a Server Game RESTful API with AWS services.
 * Understood the list of AWS Free Tier services that can be utilized for the project.
-* Attended the workshop ([evidence photo](/images/evidence/chung-nhan-tuan-1.jpg)).
+* Attended the workshop.
