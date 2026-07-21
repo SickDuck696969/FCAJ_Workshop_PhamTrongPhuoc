@@ -1,5 +1,5 @@
 ---
-title: "Tuần 12 - Tối ưu, Bảo mật & Nộp bài"
+title: "Tuần 12"
 date: 2026-07-20
 weight: 12
 chapter: false

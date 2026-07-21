@@ -1,5 +1,5 @@
 ---
-title: "Week 4 - Auto Scaling, Route 53, DynamoDB & CloudFront"
+title: "Week 4"
 date: 2026-04-17
 weight: 4
 chapter: false

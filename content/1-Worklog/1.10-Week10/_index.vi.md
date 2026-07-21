@@ -1,5 +1,5 @@
 ---
-title: "Tuần 10 - Bảo mật, CI/CD & kiểm thử"
+title: "Tuần 10"
 date: 2026-04-17
 weight: 10
 chapter: false

@@ -1,5 +1,5 @@
 ---
-title: "Tuần 11 - Tích hợp backend & kiểm thử tải"
+title: "Tuần 11"
 date: 2026-04-17
 weight: 11
 chapter: false

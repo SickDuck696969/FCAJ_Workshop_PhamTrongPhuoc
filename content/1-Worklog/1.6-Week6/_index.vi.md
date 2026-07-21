@@ -1,5 +1,5 @@
 ---
-title: "Tuần 6 - CloudFormation & DynamoDB"
+title: "Tuần 6"
 date: 2026-04-17
 weight: 6
 chapter: false

@@ -1,5 +1,5 @@
 ---
-title: "Week 5 - Lambda, API Gateway & CloudFormation"
+title: "Week 5"
 date: 2026-04-17
 weight: 5
 chapter: false

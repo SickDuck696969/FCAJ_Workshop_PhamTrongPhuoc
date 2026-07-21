@@ -1,5 +1,5 @@
 ---
-title: "Week 7 - Final Project Kick-off & Analysis"
+title: "Week 7"
 date: 2026-04-17
 weight: 7
 chapter: false

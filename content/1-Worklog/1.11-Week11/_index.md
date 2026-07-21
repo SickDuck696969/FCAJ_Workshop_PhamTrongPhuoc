@@ -1,5 +1,5 @@
 ---
-title: "Week 11 - Backend Integration & Load Testing"
+title: "Week 11"
 date: 2026-04-17
 weight: 11
 chapter: false

@@ -1,5 +1,5 @@
 ---
-title: "Tuần 8 - AWS Well-Architected, SAM & thiết kế kiến trúc"
+title: "Tuần 8"
 date: 2026-04-17
 weight: 8
 chapter: false

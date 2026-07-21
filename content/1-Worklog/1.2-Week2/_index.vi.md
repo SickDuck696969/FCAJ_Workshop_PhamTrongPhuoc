@@ -1,5 +1,5 @@
 ---
-title: "Tuần 2 - IAM, VPC & mạng cơ bản"
+title: "Tuần 2"
 date: 2026-05-11
 weight: 2
 chapter: false

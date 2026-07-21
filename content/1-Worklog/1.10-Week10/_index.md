@@ -1,5 +1,5 @@
 ---
-title: "Week 10 - Security, CI/CD & Testing"
+title: "Week 10"
 date: 2026-04-17
 weight: 10
 chapter: false

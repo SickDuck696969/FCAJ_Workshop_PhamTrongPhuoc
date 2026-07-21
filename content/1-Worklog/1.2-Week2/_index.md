@@ -1,5 +1,5 @@
 ---
-title: "Week 2 - IAM, VPC & Networking Fundamentals"
+title: "Week 2"
 date: 2026-05-11
 weight: 2
 chapter: false

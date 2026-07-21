@@ -1,5 +1,5 @@
 ---
-title: "Week 12 - Optimization, Security & Submission"
+title: "Week 12"
 date: 2026-07-20
 weight: 12
 chapter: false
