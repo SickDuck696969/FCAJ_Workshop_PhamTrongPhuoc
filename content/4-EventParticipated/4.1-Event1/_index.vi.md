@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch sự kiện "FCAJ Community Day"
+# Bài thu hoạch sự kiện "FCAJ Community Day 09/05/2026"
 
 | Thông tin | Chi tiết |
 |------|---------|

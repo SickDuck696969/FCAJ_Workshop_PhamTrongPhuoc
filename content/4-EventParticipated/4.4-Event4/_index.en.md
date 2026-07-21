@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.4. </b> "
 ---
 
-# Summary Report: "FCAJ Community Day - June 2026"
+# Summary Report: "FCAJ Community Day 27/06/2026"
 
 | Info | Details |
 |------|---------|
