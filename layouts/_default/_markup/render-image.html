@@ -1,9 +1,14 @@
 {{- $dest := .Destination -}}
 {{- $alt := .Text -}}
 {{- $title := .Title -}}
-{{- $resource := .Page.Resources.GetMatch $dest -}}
+{{- if or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") -}}
+<img src="{{ $dest }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+{{- $cleanDest := strings.TrimPrefix "/" $dest -}}
+{{- $resource := .Page.Resources.GetMatch $cleanDest -}}
 {{- if $resource -}}
 <img src="{{ $resource.RelPermalink }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}>
 {{- else -}}
-<img src="{{ $dest | relURL }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}>
+<img src="{{ $cleanDest | relURL }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}>
+{{- end -}}
 {{- end -}}
