@@ -20,7 +20,7 @@ Tìm hiểu Amazon DynamoDB và mô hình lưu trữ NoSQL cho game backend API 
 
 | Ngày | Thứ | Nội dung công việc | Lab / Dự án |
 |---|---|---|---|
-| 25/05/2026 | Thứ 2 | Lên văn phòng AWS thực tế làm việc, thảo luận tiến độ triển khai service backend và hạ tầng hỗ trợ workshop. | Báo cáo tiến độ |
+| 25/05/2026 | Thứ 2 | Thảo luận tiến độ triển khai service backend và hạ tầng hỗ trợ workshop với mentor. | Báo cáo tiến độ |
 | 26/05/2026 | Thứ 3 | Xác định mô hình dữ liệu cho các cấu trúc game state và bảng NoSQL cần lưu trong DynamoDB. | Data Modeling |
 | 27/05/2026 | Thứ 4 | Tìm hiểu cơ sở dữ liệu phi cấu trúc Amazon DynamoDB, cấu trúc bảng NoSQL, partition key và capacity modes. Thực hành Lab 000060. | [Lab 000060 - Làm việc với Amazon DynamoDB](https://000060.awsstudygroup.com)|
 | 28/05/2026 | Thứ 5 | Nghiên cứu sâu cơ chế lập chỉ mục GSI, LSI và quản lý dung lượng DynamoDB. Tiếp tục Lab 000060. | [Lab 000060 - Làm việc với Amazon DynamoDB](https://000060.awsstudygroup.com)|

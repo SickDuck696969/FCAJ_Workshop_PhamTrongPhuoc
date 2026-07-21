@@ -35,7 +35,6 @@ Reviewing AWS technical documentation, mastering the AWS Console, and managing E
 
 ### Week 2 References
 
-* [Lab 000001 - Tạo tài khoản AWS đầu tiên](https://000001.awsstudygroup.com)
 * [Lab 000002 - Quản lý truy cập với AWS IAM](https://000002.awsstudygroup.com)
 * [Lab 000003 - Kiến thức mạng cơ bản với Amazon VPC](https://000003.awsstudygroup.com)
 * [Lab 000048 - IAM Roles cho EC2 (Instance Profile)](https://000048.awsstudygroup.com)
