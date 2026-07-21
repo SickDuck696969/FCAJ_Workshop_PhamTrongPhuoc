@@ -5,15 +5,15 @@ weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
-Throughout the **First Cloud AI Journey (FCAJ)** training program from May 5, 2026 to July 30, 2026, I had the opportunity to learn, practice, and deploy various solutions on **AWS Cloud**, especially **Serverless** architecture and system operations support services.
+During the **First Cloud AI Journey (FCAJ)** program from May 5, 2026 to July 30, 2026, I learned much more than I expected. It gave me real hands-on experience with **AWS Cloud** and **Serverless** design.
 
-During project implementation and workshop development, I deployed many AWS services such as **Amazon API Gateway, AWS Lambda, Amazon SQS FIFO, Dead Letter Queue (DLQ), Amazon EventBridge, Amazon Aurora, AWS Backup, and Amazon CloudWatch**. Through this, I gained a deeper understanding of designing serverless architecture, building synchronous and asynchronous processing flows, automating system maintenance tasks, implementing backup mechanisms, and monitoring application activities on AWS.
+I worked with services such as **Amazon API Gateway, AWS Lambda, Amazon SQS FIFO, Dead Letter Queue (DLQ), Amazon EventBridge, Amazon Aurora, AWS Backup, and Amazon CloudWatch**. Through that work, I started to understand how these services connect in a real system and how monitoring, backup, and maintenance fit into the bigger picture.
 
-In addition to improving technical knowledge, I also honed skills in requirements analysis, system architecture design, troubleshooting, deployment process testing, and technical documentation for each workshop. At the same time, I always proactively researched documentation, discussed with mentors and team members to refine solutions and improve product quality.
+I also improved my habits in reading documentation, checking logs, organizing deployment steps, and writing clearer technical notes. More importantly, I learned to be more patient with debugging and more active in asking questions instead of guessing.
 
-In terms of work attitude, I always strived to complete assigned tasks on schedule, proactively learned new technologies, and adhered to AWS deployment procedures. This period helped me accumulate practical experience and build a solid foundation to continue developing in the field of Cloud Computing and Serverless Architecture.
+Overall, this internship gave me a stronger foundation and more confidence to keep growing in Cloud Computing and Serverless Architecture.
 
-To objectively reflect on the internship process, I hereby evaluate myself based on the following criteria:
+To reflect on my internship journey more honestly, I evaluate myself based on the following criteria:
 
 | No. | Criteria                                       | Description                                                                                 | Good | Fair | Average |
 | --- | ---------------------------------------------- | ------------------------------------------------------------------------------------------- | ---- | ---- | ------- |
@@ -32,6 +32,6 @@ To objectively reflect on the internship process, I hereby evaluate myself based
 
 ### Areas for Improvement
 
-* Improve AWS cost optimization and resource management skills to ensure efficient system operation and avoid unnecessary expenses.
-* Continue to strengthen analysis and troubleshooting skills in Serverless systems, especially when integrating multiple AWS services together.
-* Improve technical documentation and solution presentation skills to make deployment, maintenance, and knowledge sharing more convenient and professional.
+* Improve AWS cost awareness when choosing services and resources.
+* Get better at troubleshooting Serverless systems across multiple services.
+* Write clearer technical documentation and present solutions more confidently.
