@@ -11,7 +11,7 @@ pre: " <b> 5.10. </b> "
   <iframe src="https://www.youtube.com/embed/bxgfVyOcEXw" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
           allowfullscreen 
-          title="Kiểm tra kết quả và thực nghiệm">
+          title="Verify results and experiment">
   </iframe>
 </div>
 

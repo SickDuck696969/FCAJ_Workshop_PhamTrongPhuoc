@@ -24,7 +24,7 @@ Reviewing AWS technical documentation, mastering the AWS Console, and managing E
 |---|---|---|---|
 | 11/05/2026 | Mon | Review VPC topology and IAM configurations from Week 1. Set up a $5 Billing Alarm to proactively monitor extra costs. | AWS Infrastructure |
 | 12/05/2026 | Tue | Study IAM Roles for EC2 and the Instance Profile architecture to secure access while avoiding static access keys. Complete Lab 000048. | [Lab 000048 - IAM Roles cho EC2 (Instance Profile)](https://000048.awsstudygroup.com)|
-| 13/05/2026 | Wed | Explore Amazon EC2 compute services. Provision Amazon Linux & Windows instances, configure key pairs, AMIs, and Security Groups. Hands-on practice with Lab 000004. | [Lab 000004 - Giới thiệu Amazon EC2](https://000004.awsstudygroup.com)|
+| 13/05/2026 | Wed | Explore Amazon EC2 compute services. Provision Amazon Linux & Windows instances, configure key pairs, AMIs, and Security Groups. Hands-on practice with Lab 000004. | [Lab 000004 - Introduction to Amazon EC2](https://000004.awsstudygroup.com)|
 
 ### Expected Results
 
@@ -35,7 +35,7 @@ Reviewing AWS technical documentation, mastering the AWS Console, and managing E
 
 ### Week 2 References
 
-* [Lab 000002 - Quản lý truy cập với AWS IAM](https://000002.awsstudygroup.com)
-* [Lab 000003 - Kiến thức mạng cơ bản với Amazon VPC](https://000003.awsstudygroup.com)
-* [Lab 000048 - IAM Roles cho EC2 (Instance Profile)](https://000048.awsstudygroup.com)
-* [Lab 000004 - Giới thiệu Amazon EC2](https://000004.awsstudygroup.com)
+* [Lab 000002 - Managing Access with AWS IAM](https://000002.awsstudygroup.com)
+* [Lab 000003 - Basic Networking Concepts with Amazon VPC](https://000003.awsstudygroup.com)
+* [Lab 000048 - IAM Roles for EC2 (Instance Profile)](https://000048.awsstudygroup.com)
+* [Lab 000004 - Introduction to Amazon EC2](https://000004.awsstudygroup.com)

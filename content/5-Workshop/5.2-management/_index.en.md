@@ -249,7 +249,7 @@ Description: 'Edge Layer: CloudFront + WAF'
 Parameters:
   ApiGatewayDomainName:
     Type: String
-    Description: Endpoint URL của API Gateway
+    Description: Endpoint URL of the API Gateway
 
 Resources:
 # Initialize WAF
