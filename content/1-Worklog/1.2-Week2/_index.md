@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-> **Note:** Due to the April 30 (Liberation Day) and May 01 (International Workers' Day) public holidays, this week's schedule is consolidated into 3 working days.
-
 ### Weekly Topic
 
 Reviewing AWS technical documentation, mastering the AWS Console, and managing EC2 compute resources.

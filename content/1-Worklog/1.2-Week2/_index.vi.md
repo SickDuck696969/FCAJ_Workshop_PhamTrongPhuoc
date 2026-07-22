@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-> **Lưu ý:** Do trùng lịch nghỉ lễ 30/04 (Ngày Giải phóng) và 01/05 (Ngày Quốc tế Lao động), tiến độ tuần này được sắp xếp cô đọng trong 3 ngày làm việc.
 
 ### Chủ đề tuần
 
