@@ -51,7 +51,7 @@ Yes, I would recommend FCAJ to friends or students who want to get into Cloud Co
 
 ##### Suggestions
 
-I would love more mini projects that combine several AWS services into one problem. More sharing sessions about deployment experience and architecture tradeoffs would also be useful.
+I hope the program will include more mini competitions that allow teams to compete with one another, encouraging healthy competition and promoting a culture of learning and improvement.
 
 ##### Future Wishes
 

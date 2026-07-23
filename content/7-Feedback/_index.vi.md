@@ -51,7 +51,7 @@ Em sẵn sàng giới thiệu FCAJ cho bạn bè hoặc các bạn sinh viên qu
 
 ##### Đề xuất
 
-Em mong chương trình có thêm các workshop hoặc mini project tổng hợp, kết hợp nhiều dịch vụ AWS trong cùng một bài toán. Em cũng nghĩ các buổi chia sẻ về triển khai thực tế và chứng chỉ AWS sẽ rất hữu ích.
+Em mong chương trình sẽ tạo thêm các cuộc thi nhỏ để các nhóm có thể tranh tài với nhau, khuyến khích tinh thần thi đua học hỏi.
 
 ##### Mong muốn trong tương lai
 
